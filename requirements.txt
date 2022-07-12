@@ -1,0 +1,13 @@
+mlflow==1.26.1
+pandas==1.4.3
+git==2.32.0
+pip==22.1.2
+pydantic==1.9.1
+fastapi==0.78.0
+gunicorn==20.1.0
+scikit-learn==1.1.1
+pandas==1.4.3
+wandb==0.12.19
+hydra-core==1.2.0
+uvicorn==0.18.2
+pytest==7.1.2
