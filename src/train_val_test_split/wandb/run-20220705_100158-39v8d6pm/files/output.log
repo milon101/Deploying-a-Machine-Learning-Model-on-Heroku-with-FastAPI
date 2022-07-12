@@ -1,0 +1,12 @@
+2022-07-05 10:02:01,647 Fething artifact clean_census.csv:latest
+2022-07-05 10:02:03,141 Splitting trainval and test
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 110, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 58, in go
+    trainval, test = train_test_split(
+  File "/home/imdadul/miniconda3/envs/mlflow-89939b1aa50a2d5fcd882e362a07119fbc9acdd2/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2433, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/imdadul/miniconda3/envs/mlflow-89939b1aa50a2d5fcd882e362a07119fbc9acdd2/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2077, in _validate_shuffle_split
+    raise ValueError("Invalid value for test_size: {}".format(test_size))
+ValueError: Invalid value for test_size: 0.2

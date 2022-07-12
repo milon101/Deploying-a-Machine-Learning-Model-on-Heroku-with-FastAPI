@@ -1,0 +1,9 @@
+
+2022-07-05 09:59:10,502 Fething artifact clean_census.csv:latest
+2022-07-05 09:59:12,032 Splitting trainval and test
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 110, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 58, in go
+    trainval, test = train_test_split(
+TypeError: train_test_split() got an unexpected keyword argument 'stratify_by'

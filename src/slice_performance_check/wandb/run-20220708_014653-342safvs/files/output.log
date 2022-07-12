@@ -1,0 +1,8 @@
+
+2022-07-08 01:46:57,476 Downloading artifacts
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 114, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 36, in go
+    y_test = lb.transform(y_test)
+UnboundLocalError: local variable 'lb' referenced before assignment

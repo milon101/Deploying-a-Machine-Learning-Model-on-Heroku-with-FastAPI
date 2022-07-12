@@ -1,0 +1,11 @@
+2022-07-07 22:25:20,187 Preparing sklearn pipeline
+2022-07-07 22:25:20,213 Fitting
+/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/sklearn/ensemble/_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+2022-07-07 22:25:21,631 Scoring
+2022-07-07 22:25:21,675 Score: 0.856402818068794
+2022-07-07 22:25:21,676 MAE: 0.14359718193120596
+2022-07-07 22:25:21,676 Exporting model
+/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[34m[1mwandb[39m[22m: Adding directory to artifact (./gradient_boosting_dir)... Done. 0.0s

@@ -1,0 +1,56 @@
+
+2022-07-11 16:03:40,974 Downloading artifacts
+[32mINFO[39m:     Will watch for changes in these directories: ['/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation']
+2022-07-11 16:03:45,007 Will watch for changes in these directories: ['/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation']
+[32mINFO[39m:     Uvicorn running on [1mhttp://127.0.0.0:8000[22m (Press CTRL+C to quit)
+2022-07-11 16:03:45,007 Uvicorn running on http://127.0.0.0:8000 (Press CTRL+C to quit)
+[32mINFO[39m:     Started reloader process [[36m[1m264906[39m[22m] using [36m[1mStatReload
+2022-07-11 16:03:45,007 Started reloader process [264906] using StatReload
+[32mINFO[39m:     Started server process [[36m265047[39m]
+2022-07-11 16:03:46,356 Started server process [265047]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:03:46,356 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:03:46,356 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:04:53,377 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:04:53,471 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:04:53,572 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:04:53,573 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m265047[39m]
+2022-07-11 16:04:53,573 Finished server process [265047]
+[32mINFO[39m:     Started server process [[36m265288[39m]
+2022-07-11 16:04:54,992 Started server process [265288]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:04:54,992 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:04:54,992 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:05:33,599 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:05:33,668 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:05:33,770 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:05:33,770 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m265288[39m]
+2022-07-11 16:05:33,770 Finished server process [265288]
+[32mINFO[39m:     Started server process [[36m265583[39m]
+2022-07-11 16:05:35,313 Started server process [265583]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:05:35,313 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:05:35,313 Application startup complete.
+[32mINFO[39m:     Shutting down
+2022-07-11 16:05:42,043 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:05:42,144 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:05:42,145 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m265583[39m]
+2022-07-11 16:05:42,145 Finished server process [265583]
+[32mINFO[39m:     Stopping reloader process [[36m[1m264906[39m[22m]
+2022-07-11 16:05:42,468 Stopping reloader process [264906]

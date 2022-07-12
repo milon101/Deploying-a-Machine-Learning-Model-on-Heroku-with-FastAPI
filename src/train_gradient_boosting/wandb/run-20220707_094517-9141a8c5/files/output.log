@@ -1,0 +1,30 @@
+[[' Private' ' HS-grad' ' Never-married' ... ' White' ' Male'
+  ' United-States']
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']
+ [' Private' ' Some-college' ' Separated' ... ' White' ' Female'
+  ' United-States']
+ ...
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']
+ [' Self-emp-not-inc' ' Some-college' ' Married-civ-spouse' ... ' Black'
+  ' Male' ' United-States']
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']]
+2022-07-07 09:45:22,357 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/run.py", line 262, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/run.py", line 73, in go
+    X_train, y_train, encoder, lb = process_data(
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/data.py", line 70, in process_data
+    X = X_continuous + X_categorical
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/pandas/core/ops/common.py", line 70, in new_method
+    return method(self, other)
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/pandas/core/arraylike.py", line 100, in __add__
+    return self._arith_method(other, operator.add)
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/pandas/core/frame.py", line 6950, in _arith_method
+    self, other = ops.align_method_FRAME(self, other, axis, flex=True, level=None)
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/pandas/core/ops/__init__.py", line 264, in align_method_FRAME
+    raise ValueError(
+ValueError: Unable to coerce to DataFrame, shape must be (20838, 6): given (20838, 101)

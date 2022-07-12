@@ -1,0 +1,990 @@
+       age   workclass   fnlwgt      education   education-num  \
+0       39   State-gov    77516      Bachelors              13
+11      30   State-gov   141297      Bachelors              13
+34      22   State-gov   311512   Some-college              10
+48      41   State-gov   101603      Assoc-voc              11
+123     29   State-gov   267989      Bachelors              13
+...    ...         ...      ...            ...             ...
+32360   58   State-gov   200316        HS-grad               9
+32380   48   State-gov   224474   Some-college              10
+32479   64   State-gov   222966        7th-8th               4
+32540   45   State-gov   252208        HS-grad               9
+32549   43   State-gov   255835   Some-college              10
+            marital-status        occupation     relationship  \
+0            Never-married      Adm-clerical    Not-in-family
+11      Married-civ-spouse    Prof-specialty          Husband
+34      Married-civ-spouse     Other-service          Husband
+48      Married-civ-spouse      Craft-repair          Husband
+123     Married-civ-spouse    Prof-specialty          Husband
+...                    ...               ...              ...
+32360   Married-civ-spouse      Craft-repair          Husband
+32380             Divorced   Exec-managerial    Not-in-family
+32479   Married-civ-spouse     Other-service             Wife
+32540            Separated      Adm-clerical        Own-child
+32549             Divorced      Adm-clerical   Other-relative
+                      race      sex   capital-gain   capital-loss  \
+0                    White     Male           2174              0
+11      Asian-Pac-Islander     Male              0              0
+34                   Black     Male              0              0
+48                   White     Male              0              0
+123                  White     Male              0              0
+...                    ...      ...            ...            ...
+32360                White     Male              0              0
+32380                White   Female              0              0
+32479                Black   Female              0              0
+32540                White   Female              0              0
+32549                White   Female              0              0
+        hours-per-week  native-country  salary
+0                   40   United-States   <=50K
+11                  40           India    >50K
+34                  15   United-States   <=50K
+48                  40   United-States   <=50K
+123                 50   United-States    >50K
+...                ...             ...     ...
+32360               40   United-States   <=50K
+32380               40   United-States   <=50K
+32479               40   United-States   <=50K
+32540               40   United-States   <=50K
+32549               40   United-States   <=50K
+[1298 rows x 15 columns]
+       age          workclass   fnlwgt      education   education-num  \
+1       50   Self-emp-not-inc    83311      Bachelors              13
+7       52   Self-emp-not-inc   209642        HS-grad               9
+16      25   Self-emp-not-inc   176756        HS-grad               9
+19      43   Self-emp-not-inc   292175        Masters              14
+39      48   Self-emp-not-inc   265477     Assoc-acdm              12
+...    ...                ...      ...            ...             ...
+32456   30   Self-emp-not-inc   261943           11th               7
+32468   39   Self-emp-not-inc   193689        HS-grad               9
+32492   42   Self-emp-not-inc   217597        HS-grad               9
+32548   65   Self-emp-not-inc    99359    Prof-school              15
+32550   43   Self-emp-not-inc    27242   Some-college              10
+               marital-status        occupation    relationship    race  \
+1          Married-civ-spouse   Exec-managerial         Husband   White
+7          Married-civ-spouse   Exec-managerial         Husband   White
+16              Never-married   Farming-fishing       Own-child   White
+19                   Divorced   Exec-managerial       Unmarried   White
+39         Married-civ-spouse    Prof-specialty         Husband   White
+...                       ...               ...             ...     ...
+32456   Married-spouse-absent      Craft-repair   Not-in-family   White
+32468           Never-married   Exec-managerial   Not-in-family   White
+32492                Divorced             Sales       Own-child   White
+32548           Never-married    Prof-specialty   Not-in-family   White
+32550      Married-civ-spouse      Craft-repair         Husband   White
+           sex   capital-gain   capital-loss   hours-per-week  native-country  \
+1         Male              0              0               13   United-States
+7         Male              0              0               45   United-States
+16        Male              0              0               35   United-States
+19      Female              0              0               45   United-States
+39        Male              0              0               40   United-States
+...        ...            ...            ...              ...             ...
+32456     Male              0              0               30        Honduras
+32468     Male              0              0               65   United-States
+32492     Male              0              0               50               ?
+32548     Male           1086              0               60   United-States
+32550     Male              0              0               50   United-States
+       salary
+1       <=50K
+7        >50K
+16      <=50K
+19       >50K
+39      <=50K
+...       ...
+32456   <=50K
+32468   <=50K
+32492   <=50K
+32548   <=50K
+32550   <=50K
+[2541 rows x 15 columns]
+       age  workclass   fnlwgt      education   education-num  \
+2       38    Private   215646        HS-grad               9
+3       53    Private   234721           11th               7
+4       28    Private   338409      Bachelors              13
+5       37    Private   284582        Masters              14
+6       49    Private   160187            9th               5
+...    ...        ...      ...            ...             ...
+32555   22    Private   310152   Some-college              10
+32556   27    Private   257302     Assoc-acdm              12
+32557   40    Private   154374        HS-grad               9
+32558   58    Private   151910        HS-grad               9
+32559   22    Private   201490        HS-grad               9
+               marital-status          occupation    relationship    race  \
+2                    Divorced   Handlers-cleaners   Not-in-family   White
+3          Married-civ-spouse   Handlers-cleaners         Husband   Black
+4          Married-civ-spouse      Prof-specialty            Wife   Black
+5          Married-civ-spouse     Exec-managerial            Wife   White
+6       Married-spouse-absent       Other-service   Not-in-family   Black
+...                       ...                 ...             ...     ...
+32555           Never-married     Protective-serv   Not-in-family   White
+32556      Married-civ-spouse        Tech-support            Wife   White
+32557      Married-civ-spouse   Machine-op-inspct         Husband   White
+32558                 Widowed        Adm-clerical       Unmarried   White
+32559           Never-married        Adm-clerical       Own-child   White
+           sex   capital-gain   capital-loss   hours-per-week  native-country  \
+2         Male              0              0               40   United-States
+3         Male              0              0               40   United-States
+4       Female              0              0               40            Cuba
+5       Female              0              0               40   United-States
+6       Female              0              0               16         Jamaica
+...        ...            ...            ...              ...             ...
+32555     Male              0              0               40   United-States
+32556   Female              0              0               38   United-States
+32557     Male              0              0               40   United-States
+32558   Female              0              0               40   United-States
+32559     Male              0              0               20   United-States
+       salary
+2       <=50K
+3       <=50K
+4       <=50K
+5       <=50K
+6       <=50K
+...       ...
+32555   <=50K
+32556   <=50K
+32557    >50K
+32558   <=50K
+32559   <=50K
+[22696 rows x 15 columns]
+       age     workclass   fnlwgt      education   education-num  \
+22      35   Federal-gov    76845            9th               5
+33      30   Federal-gov    59951   Some-college              10
+45      57   Federal-gov   337895      Bachelors              13
+53      50   Federal-gov   251585      Bachelors              13
+89      43   Federal-gov   410867      Doctorate              16
+...    ...           ...      ...            ...             ...
+32383   28   Federal-gov   381789      Bachelors              13
+32386   59   Federal-gov    23789        HS-grad               9
+32428   39   Federal-gov   110622      Bachelors              13
+32473   41   Federal-gov   160467        Masters              14
+32515   66   Federal-gov    47358           10th               6
+            marital-status        occupation    relationship  \
+22      Married-civ-spouse   Farming-fishing         Husband
+33      Married-civ-spouse      Adm-clerical       Own-child
+45      Married-civ-spouse    Prof-specialty         Husband
+53                Divorced   Exec-managerial   Not-in-family
+89           Never-married    Prof-specialty   Not-in-family
+...                    ...               ...             ...
+32383        Never-married    Prof-specialty   Not-in-family
+32386   Married-civ-spouse             Sales            Wife
+32428   Married-civ-spouse      Adm-clerical            Wife
+32473             Divorced    Prof-specialty       Unmarried
+32515   Married-civ-spouse      Craft-repair         Husband
+                      race      sex   capital-gain   capital-loss  \
+22                   Black     Male              0              0
+33                   White     Male              0              0
+45                   Black     Male              0              0
+53                   White     Male              0              0
+89                   White   Female              0              0
+...                    ...      ...            ...            ...
+32383                White     Male              0              0
+32386                White   Female              0              0
+32428   Asian-Pac-Islander   Female              0              0
+32473                White   Female           1506              0
+32515                White     Male           3471              0
+        hours-per-week  native-country  salary
+22                  40   United-States   <=50K
+33                  40   United-States   <=50K
+45                  40   United-States    >50K
+53                  55   United-States    >50K
+89                  50   United-States    >50K
+...                ...             ...     ...
+32383               50   United-States   <=50K
+32386               40   United-States    >50K
+32428               40     Philippines   <=50K
+32473               40   United-States   <=50K
+32515               40   United-States   <=50K
+[960 rows x 15 columns]
+       age   workclass   fnlwgt    education   education-num  \
+25      56   Local-gov   216851    Bachelors              13
+30      23   Local-gov   190709   Assoc-acdm              12
+79      31   Local-gov   125927      7th-8th               4
+86      49   Local-gov   268234      HS-grad               9
+94      34   Local-gov   226296    Bachelors              13
+...    ...         ...      ...          ...             ...
+32502   35   Local-gov    79649    Bachelors              13
+32511   25   Local-gov   514716    Bachelors              13
+32518   57   Local-gov   110417      HS-grad               9
+32543   45   Local-gov   119199   Assoc-acdm              12
+32545   39   Local-gov   111499   Assoc-acdm              12
+            marital-status        occupation    relationship    race      sex  \
+25      Married-civ-spouse      Tech-support         Husband   White     Male
+30           Never-married   Protective-serv   Not-in-family   White     Male
+79      Married-civ-spouse   Farming-fishing         Husband   White     Male
+86      Married-civ-spouse   Protective-serv         Husband   White     Male
+94      Married-civ-spouse   Protective-serv         Husband   White     Male
+...                    ...               ...             ...     ...      ...
+32502   Married-civ-spouse    Prof-specialty         Husband   White     Male
+32511        Never-married      Adm-clerical       Own-child   Black   Female
+32518   Married-civ-spouse      Craft-repair         Husband   White     Male
+32543             Divorced    Prof-specialty       Unmarried   White   Female
+32545   Married-civ-spouse      Adm-clerical            Wife   White   Female
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+25                 0              0               40   United-States    >50K
+30                 0              0               52   United-States   <=50K
+79                 0              0               40   United-States   <=50K
+86                 0              0               40   United-States    >50K
+94                 0              0               40   United-States    >50K
+...              ...            ...              ...             ...     ...
+32502              0              0               50   United-States   <=50K
+32511              0              0               40   United-States   <=50K
+32518          99999              0               40   United-States    >50K
+32543              0              0               48   United-States   <=50K
+32545              0              0               20   United-States    >50K
+[2093 rows x 15 columns]
+       age  workclass   fnlwgt      education   education-num  \
+27      54          ?   180211   Some-college              10
+61      32          ?   293936        7th-8th               4
+69      25          ?   200681   Some-college              10
+77      67          ?   212759           10th               6
+106     17          ?   304873           10th               6
+...    ...        ...      ...            ...             ...
+32530   35          ?   320084      Bachelors              13
+32531   30          ?    33811      Bachelors              13
+32539   71          ?   287372      Doctorate              16
+32541   41          ?   202822        HS-grad               9
+32542   72          ?   129912        HS-grad               9
+               marital-status  occupation    relationship  \
+27         Married-civ-spouse           ?         Husband
+61      Married-spouse-absent           ?   Not-in-family
+69              Never-married           ?       Own-child
+77         Married-civ-spouse           ?         Husband
+106             Never-married           ?       Own-child
+...                       ...         ...             ...
+32530      Married-civ-spouse           ?            Wife
+32531           Never-married           ?   Not-in-family
+32539      Married-civ-spouse           ?         Husband
+32541               Separated           ?   Not-in-family
+32542      Married-civ-spouse           ?         Husband
+                      race      sex   capital-gain   capital-loss  \
+27      Asian-Pac-Islander     Male              0              0
+61                   White     Male              0              0
+69                   White     Male              0              0
+77                   White     Male              0              0
+106                  White   Female          34095              0
+...                    ...      ...            ...            ...
+32530                White   Female              0              0
+32531   Asian-Pac-Islander   Female              0              0
+32539                White     Male              0              0
+32541                Black   Female              0              0
+32542                White     Male              0              0
+        hours-per-week  native-country  salary
+27                  60           South    >50K
+61                  40               ?   <=50K
+69                  40   United-States   <=50K
+77                   2   United-States   <=50K
+106                 32   United-States   <=50K
+...                ...             ...     ...
+32530               55   United-States    >50K
+32531               99   United-States   <=50K
+32539               10   United-States    >50K
+32541               32   United-States   <=50K
+32542               25   United-States   <=50K
+[1836 rows x 15 columns]
+       age      workclass   fnlwgt      education   education-num  \
+54      47   Self-emp-inc   109832        HS-grad               9
+68      49   Self-emp-inc   191681   Some-college              10
+105     32   Self-emp-inc   317660        HS-grad               9
+116     56   Self-emp-inc   303090   Some-college              10
+140     61   Self-emp-inc    66614        HS-grad               9
+...    ...            ...      ...            ...             ...
+32449   44   Self-emp-inc    71556        Masters              14
+32462   48   Self-emp-inc   185041        HS-grad               9
+32464   45   Self-emp-inc   173664      Bachelors              13
+32469   58   Self-emp-inc   181974      Doctorate              16
+32560   52   Self-emp-inc   287927        HS-grad               9
+            marital-status        occupation    relationship    race      sex  \
+54                Divorced   Exec-managerial   Not-in-family   White     Male
+68      Married-civ-spouse   Exec-managerial         Husband   White     Male
+105     Married-civ-spouse      Craft-repair         Husband   White     Male
+116     Married-civ-spouse             Sales         Husband   White     Male
+140     Married-civ-spouse      Craft-repair         Husband   White     Male
+...                    ...               ...             ...     ...      ...
+32449   Married-civ-spouse             Sales         Husband   White     Male
+32462   Married-civ-spouse      Craft-repair         Husband   White     Male
+32464   Married-civ-spouse   Exec-managerial         Husband   White     Male
+32469        Never-married    Prof-specialty   Not-in-family   White   Female
+32560   Married-civ-spouse   Exec-managerial            Wife   White   Female
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+54                 0              0               60   United-States   <=50K
+68                 0              0               50   United-States    >50K
+105             7688              0               40   United-States    >50K
+116                0              0               50   United-States   <=50K
+140                0              0               40   United-States   <=50K
+...              ...            ...              ...             ...     ...
+32449              0              0               50               ?    >50K
+32462           7298              0               50   United-States    >50K
+32464              0              0               45   United-States    >50K
+32469              0              0               99               ?   <=50K
+32560          15024              0               40   United-States    >50K
+[1116 rows x 15 columns]
+       age     workclass   fnlwgt      education   education-num  \
+1901    65   Without-pay    27012        7th-8th               4
+9257    19   Without-pay   344858        HS-grad               9
+15533   21   Without-pay   232719        HS-grad               9
+15695   22   Without-pay   302347        HS-grad               9
+16812   46   Without-pay   142210        HS-grad               9
+20073   65   Without-pay   172949        HS-grad               9
+21944   52   Without-pay   198262        HS-grad               9
+22215   19   Without-pay    43887        HS-grad               9
+24596   62   Without-pay   170114     Assoc-acdm              12
+25500   29   Without-pay   212588   Some-college              10
+27747   72   Without-pay   121004        HS-grad               9
+28829   68   Without-pay   174695   Some-college              10
+29158   67   Without-pay   137192        HS-grad               9
+32262   62   Without-pay   159908   Some-college              10
+               marital-status          occupation  relationship  \
+1901                  Widowed     Farming-fishing     Unmarried
+9257            Never-married     Farming-fishing     Own-child
+15533           Never-married        Craft-repair     Own-child
+15695           Never-married   Handlers-cleaners     Own-child
+16812      Married-civ-spouse   Machine-op-inspct          Wife
+20073      Married-civ-spouse    Transport-moving       Husband
+21944      Married-civ-spouse        Adm-clerical          Wife
+22215           Never-married     Farming-fishing     Own-child
+24596      Married-civ-spouse     Farming-fishing       Husband
+25500      Married-civ-spouse     Farming-fishing     Own-child
+27747      Married-civ-spouse       Other-service       Husband
+28829   Married-spouse-absent     Farming-fishing     Unmarried
+29158      Married-civ-spouse        Adm-clerical       Husband
+32262      Married-civ-spouse        Adm-clerical          Wife
+                      race      sex   capital-gain   capital-loss  \
+1901                 White   Female              0              0
+9257                 White     Male              0              0
+15533                Black     Male              0              0
+15695                White     Male           4416              0
+16812                White   Female              0              0
+20073                White     Male           2414              0
+21944                White   Female              0              0
+22215                White     Male              0              0
+24596                White     Male              0              0
+25500                White     Male              0              0
+27747                White     Male              0              0
+28829                White   Female              0              0
+29158   Asian-Pac-Islander     Male              0              0
+32262                White   Female              0              0
+        hours-per-week  native-country  salary
+1901                50   United-States   <=50K
+9257                20   United-States   <=50K
+15533               40   United-States   <=50K
+15695               40   United-States   <=50K
+16812               25   United-States   <=50K
+20073               20   United-States   <=50K
+21944               30   United-States   <=50K
+22215               10   United-States   <=50K
+24596               50   United-States   <=50K
+25500               65   United-States   <=50K
+27747               55   United-States   <=50K
+28829               25   United-States   <=50K
+29158               12     Philippines   <=50K
+32262               16   United-States   <=50K
+       age      workclass   fnlwgt      education   education-num  \
+5361    18   Never-worked   206359           10th               6
+10845   23   Never-worked   188535        7th-8th               4
+14772   17   Never-worked   237272           10th               6
+20337   18   Never-worked   157131           11th               7
+23232   20   Never-worked   462294   Some-college              10
+32304   30   Never-worked   176673        HS-grad               9
+32314   18   Never-worked   153663   Some-college              10
+            marital-status  occupation    relationship    race      sex  \
+5361         Never-married           ?       Own-child   White     Male
+10845             Divorced           ?   Not-in-family   White     Male
+14772        Never-married           ?       Own-child   White     Male
+20337        Never-married           ?       Own-child   White   Female
+23232        Never-married           ?       Own-child   Black     Male
+32304   Married-civ-spouse           ?            Wife   Black   Female
+32314        Never-married           ?       Own-child   White     Male
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+5361               0              0               40   United-States   <=50K
+10845              0              0               35   United-States   <=50K
+14772              0              0               30   United-States   <=50K
+20337              0              0               10   United-States   <=50K
+23232              0              0               40   United-States   <=50K
+32304              0              0               40   United-States   <=50K
+32314              0              0                4   United-States   <=50K
+       age   workclass   fnlwgt      education   education-num  \
+0       39   State-gov    77516      Bachelors              13
+11      30   State-gov   141297      Bachelors              13
+34      22   State-gov   311512   Some-college              10
+48      41   State-gov   101603      Assoc-voc              11
+123     29   State-gov   267989      Bachelors              13
+...    ...         ...      ...            ...             ...
+32360   58   State-gov   200316        HS-grad               9
+32380   48   State-gov   224474   Some-college              10
+32479   64   State-gov   222966        7th-8th               4
+32540   45   State-gov   252208        HS-grad               9
+32549   43   State-gov   255835   Some-college              10
+            marital-status        occupation     relationship  \
+0            Never-married      Adm-clerical    Not-in-family
+11      Married-civ-spouse    Prof-specialty          Husband
+34      Married-civ-spouse     Other-service          Husband
+48      Married-civ-spouse      Craft-repair          Husband
+123     Married-civ-spouse    Prof-specialty          Husband
+...                    ...               ...              ...
+32360   Married-civ-spouse      Craft-repair          Husband
+32380             Divorced   Exec-managerial    Not-in-family
+32479   Married-civ-spouse     Other-service             Wife
+32540            Separated      Adm-clerical        Own-child
+32549             Divorced      Adm-clerical   Other-relative
+                      race      sex   capital-gain   capital-loss  \
+0                    White     Male           2174              0
+11      Asian-Pac-Islander     Male              0              0
+34                   Black     Male              0              0
+48                   White     Male              0              0
+123                  White     Male              0              0
+...                    ...      ...            ...            ...
+32360                White     Male              0              0
+32380                White   Female              0              0
+32479                Black   Female              0              0
+32540                White   Female              0              0
+32549                White   Female              0              0
+        hours-per-week  native-country  salary
+0                   40   United-States   <=50K
+11                  40           India    >50K
+34                  15   United-States   <=50K
+48                  40   United-States   <=50K
+123                 50   United-States    >50K
+...                ...             ...     ...
+32360               40   United-States   <=50K
+32380               40   United-States   <=50K
+32479               40   United-States   <=50K
+32540               40   United-States   <=50K
+32549               40   United-States   <=50K
+[1298 rows x 15 columns]
+       age          workclass   fnlwgt      education   education-num  \
+1       50   Self-emp-not-inc    83311      Bachelors              13
+7       52   Self-emp-not-inc   209642        HS-grad               9
+16      25   Self-emp-not-inc   176756        HS-grad               9
+19      43   Self-emp-not-inc   292175        Masters              14
+39      48   Self-emp-not-inc   265477     Assoc-acdm              12
+...    ...                ...      ...            ...             ...
+32456   30   Self-emp-not-inc   261943           11th               7
+32468   39   Self-emp-not-inc   193689        HS-grad               9
+32492   42   Self-emp-not-inc   217597        HS-grad               9
+32548   65   Self-emp-not-inc    99359    Prof-school              15
+32550   43   Self-emp-not-inc    27242   Some-college              10
+               marital-status        occupation    relationship    race  \
+1          Married-civ-spouse   Exec-managerial         Husband   White
+7          Married-civ-spouse   Exec-managerial         Husband   White
+16              Never-married   Farming-fishing       Own-child   White
+19                   Divorced   Exec-managerial       Unmarried   White
+39         Married-civ-spouse    Prof-specialty         Husband   White
+...                       ...               ...             ...     ...
+32456   Married-spouse-absent      Craft-repair   Not-in-family   White
+32468           Never-married   Exec-managerial   Not-in-family   White
+32492                Divorced             Sales       Own-child   White
+32548           Never-married    Prof-specialty   Not-in-family   White
+32550      Married-civ-spouse      Craft-repair         Husband   White
+           sex   capital-gain   capital-loss   hours-per-week  native-country  \
+1         Male              0              0               13   United-States
+7         Male              0              0               45   United-States
+16        Male              0              0               35   United-States
+19      Female              0              0               45   United-States
+39        Male              0              0               40   United-States
+...        ...            ...            ...              ...             ...
+32456     Male              0              0               30        Honduras
+32468     Male              0              0               65   United-States
+32492     Male              0              0               50               ?
+32548     Male           1086              0               60   United-States
+32550     Male              0              0               50   United-States
+       salary
+1       <=50K
+7        >50K
+16      <=50K
+19       >50K
+39      <=50K
+...       ...
+32456   <=50K
+32468   <=50K
+32492   <=50K
+32548   <=50K
+32550   <=50K
+[2541 rows x 15 columns]
+       age  workclass   fnlwgt      education   education-num  \
+2       38    Private   215646        HS-grad               9
+3       53    Private   234721           11th               7
+4       28    Private   338409      Bachelors              13
+5       37    Private   284582        Masters              14
+6       49    Private   160187            9th               5
+...    ...        ...      ...            ...             ...
+32555   22    Private   310152   Some-college              10
+32556   27    Private   257302     Assoc-acdm              12
+32557   40    Private   154374        HS-grad               9
+32558   58    Private   151910        HS-grad               9
+32559   22    Private   201490        HS-grad               9
+               marital-status          occupation    relationship    race  \
+2                    Divorced   Handlers-cleaners   Not-in-family   White
+3          Married-civ-spouse   Handlers-cleaners         Husband   Black
+4          Married-civ-spouse      Prof-specialty            Wife   Black
+5          Married-civ-spouse     Exec-managerial            Wife   White
+6       Married-spouse-absent       Other-service   Not-in-family   Black
+...                       ...                 ...             ...     ...
+32555           Never-married     Protective-serv   Not-in-family   White
+32556      Married-civ-spouse        Tech-support            Wife   White
+32557      Married-civ-spouse   Machine-op-inspct         Husband   White
+32558                 Widowed        Adm-clerical       Unmarried   White
+32559           Never-married        Adm-clerical       Own-child   White
+           sex   capital-gain   capital-loss   hours-per-week  native-country  \
+2         Male              0              0               40   United-States
+3         Male              0              0               40   United-States
+4       Female              0              0               40            Cuba
+5       Female              0              0               40   United-States
+6       Female              0              0               16         Jamaica
+...        ...            ...            ...              ...             ...
+32555     Male              0              0               40   United-States
+32556   Female              0              0               38   United-States
+32557     Male              0              0               40   United-States
+32558   Female              0              0               40   United-States
+32559     Male              0              0               20   United-States
+       salary
+2       <=50K
+3       <=50K
+4       <=50K
+5       <=50K
+6       <=50K
+...       ...
+32555   <=50K
+32556   <=50K
+32557    >50K
+32558   <=50K
+32559   <=50K
+[22696 rows x 15 columns]
+       age     workclass   fnlwgt      education   education-num  \
+22      35   Federal-gov    76845            9th               5
+33      30   Federal-gov    59951   Some-college              10
+45      57   Federal-gov   337895      Bachelors              13
+53      50   Federal-gov   251585      Bachelors              13
+89      43   Federal-gov   410867      Doctorate              16
+...    ...           ...      ...            ...             ...
+32383   28   Federal-gov   381789      Bachelors              13
+32386   59   Federal-gov    23789        HS-grad               9
+32428   39   Federal-gov   110622      Bachelors              13
+32473   41   Federal-gov   160467        Masters              14
+32515   66   Federal-gov    47358           10th               6
+            marital-status        occupation    relationship  \
+22      Married-civ-spouse   Farming-fishing         Husband
+33      Married-civ-spouse      Adm-clerical       Own-child
+45      Married-civ-spouse    Prof-specialty         Husband
+53                Divorced   Exec-managerial   Not-in-family
+89           Never-married    Prof-specialty   Not-in-family
+...                    ...               ...             ...
+32383        Never-married    Prof-specialty   Not-in-family
+32386   Married-civ-spouse             Sales            Wife
+32428   Married-civ-spouse      Adm-clerical            Wife
+32473             Divorced    Prof-specialty       Unmarried
+32515   Married-civ-spouse      Craft-repair         Husband
+                      race      sex   capital-gain   capital-loss  \
+22                   Black     Male              0              0
+33                   White     Male              0              0
+45                   Black     Male              0              0
+53                   White     Male              0              0
+89                   White   Female              0              0
+...                    ...      ...            ...            ...
+32383                White     Male              0              0
+32386                White   Female              0              0
+32428   Asian-Pac-Islander   Female              0              0
+32473                White   Female           1506              0
+32515                White     Male           3471              0
+        hours-per-week  native-country  salary
+22                  40   United-States   <=50K
+33                  40   United-States   <=50K
+45                  40   United-States    >50K
+53                  55   United-States    >50K
+89                  50   United-States    >50K
+...                ...             ...     ...
+32383               50   United-States   <=50K
+32386               40   United-States    >50K
+32428               40     Philippines   <=50K
+32473               40   United-States   <=50K
+32515               40   United-States   <=50K
+[960 rows x 15 columns]
+       age   workclass   fnlwgt    education   education-num  \
+25      56   Local-gov   216851    Bachelors              13
+30      23   Local-gov   190709   Assoc-acdm              12
+79      31   Local-gov   125927      7th-8th               4
+86      49   Local-gov   268234      HS-grad               9
+94      34   Local-gov   226296    Bachelors              13
+...    ...         ...      ...          ...             ...
+32502   35   Local-gov    79649    Bachelors              13
+32511   25   Local-gov   514716    Bachelors              13
+32518   57   Local-gov   110417      HS-grad               9
+32543   45   Local-gov   119199   Assoc-acdm              12
+32545   39   Local-gov   111499   Assoc-acdm              12
+            marital-status        occupation    relationship    race      sex  \
+25      Married-civ-spouse      Tech-support         Husband   White     Male
+30           Never-married   Protective-serv   Not-in-family   White     Male
+79      Married-civ-spouse   Farming-fishing         Husband   White     Male
+86      Married-civ-spouse   Protective-serv         Husband   White     Male
+94      Married-civ-spouse   Protective-serv         Husband   White     Male
+...                    ...               ...             ...     ...      ...
+32502   Married-civ-spouse    Prof-specialty         Husband   White     Male
+32511        Never-married      Adm-clerical       Own-child   Black   Female
+32518   Married-civ-spouse      Craft-repair         Husband   White     Male
+32543             Divorced    Prof-specialty       Unmarried   White   Female
+32545   Married-civ-spouse      Adm-clerical            Wife   White   Female
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+25                 0              0               40   United-States    >50K
+30                 0              0               52   United-States   <=50K
+79                 0              0               40   United-States   <=50K
+86                 0              0               40   United-States    >50K
+94                 0              0               40   United-States    >50K
+...              ...            ...              ...             ...     ...
+32502              0              0               50   United-States   <=50K
+32511              0              0               40   United-States   <=50K
+32518          99999              0               40   United-States    >50K
+32543              0              0               48   United-States   <=50K
+32545              0              0               20   United-States    >50K
+[2093 rows x 15 columns]
+       age  workclass   fnlwgt      education   education-num  \
+27      54          ?   180211   Some-college              10
+61      32          ?   293936        7th-8th               4
+69      25          ?   200681   Some-college              10
+77      67          ?   212759           10th               6
+106     17          ?   304873           10th               6
+...    ...        ...      ...            ...             ...
+32530   35          ?   320084      Bachelors              13
+32531   30          ?    33811      Bachelors              13
+32539   71          ?   287372      Doctorate              16
+32541   41          ?   202822        HS-grad               9
+32542   72          ?   129912        HS-grad               9
+               marital-status  occupation    relationship  \
+27         Married-civ-spouse           ?         Husband
+61      Married-spouse-absent           ?   Not-in-family
+69              Never-married           ?       Own-child
+77         Married-civ-spouse           ?         Husband
+106             Never-married           ?       Own-child
+...                       ...         ...             ...
+32530      Married-civ-spouse           ?            Wife
+32531           Never-married           ?   Not-in-family
+32539      Married-civ-spouse           ?         Husband
+32541               Separated           ?   Not-in-family
+32542      Married-civ-spouse           ?         Husband
+                      race      sex   capital-gain   capital-loss  \
+27      Asian-Pac-Islander     Male              0              0
+61                   White     Male              0              0
+69                   White     Male              0              0
+77                   White     Male              0              0
+106                  White   Female          34095              0
+...                    ...      ...            ...            ...
+32530                White   Female              0              0
+32531   Asian-Pac-Islander   Female              0              0
+32539                White     Male              0              0
+32541                Black   Female              0              0
+32542                White     Male              0              0
+        hours-per-week  native-country  salary
+27                  60           South    >50K
+61                  40               ?   <=50K
+69                  40   United-States   <=50K
+77                   2   United-States   <=50K
+106                 32   United-States   <=50K
+...                ...             ...     ...
+32530               55   United-States    >50K
+32531               99   United-States   <=50K
+32539               10   United-States    >50K
+32541               32   United-States   <=50K
+32542               25   United-States   <=50K
+[1836 rows x 15 columns]
+       age      workclass   fnlwgt      education   education-num  \
+54      47   Self-emp-inc   109832        HS-grad               9
+68      49   Self-emp-inc   191681   Some-college              10
+105     32   Self-emp-inc   317660        HS-grad               9
+116     56   Self-emp-inc   303090   Some-college              10
+140     61   Self-emp-inc    66614        HS-grad               9
+...    ...            ...      ...            ...             ...
+32449   44   Self-emp-inc    71556        Masters              14
+32462   48   Self-emp-inc   185041        HS-grad               9
+32464   45   Self-emp-inc   173664      Bachelors              13
+32469   58   Self-emp-inc   181974      Doctorate              16
+32560   52   Self-emp-inc   287927        HS-grad               9
+            marital-status        occupation    relationship    race      sex  \
+54                Divorced   Exec-managerial   Not-in-family   White     Male
+68      Married-civ-spouse   Exec-managerial         Husband   White     Male
+105     Married-civ-spouse      Craft-repair         Husband   White     Male
+116     Married-civ-spouse             Sales         Husband   White     Male
+140     Married-civ-spouse      Craft-repair         Husband   White     Male
+...                    ...               ...             ...     ...      ...
+32449   Married-civ-spouse             Sales         Husband   White     Male
+32462   Married-civ-spouse      Craft-repair         Husband   White     Male
+32464   Married-civ-spouse   Exec-managerial         Husband   White     Male
+32469        Never-married    Prof-specialty   Not-in-family   White   Female
+32560   Married-civ-spouse   Exec-managerial            Wife   White   Female
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+54                 0              0               60   United-States   <=50K
+68                 0              0               50   United-States    >50K
+105             7688              0               40   United-States    >50K
+116                0              0               50   United-States   <=50K
+140                0              0               40   United-States   <=50K
+...              ...            ...              ...             ...     ...
+32449              0              0               50               ?    >50K
+32462           7298              0               50   United-States    >50K
+32464              0              0               45   United-States    >50K
+32469              0              0               99               ?   <=50K
+32560          15024              0               40   United-States    >50K
+[1116 rows x 15 columns]
+       age     workclass   fnlwgt      education   education-num  \
+1901    65   Without-pay    27012        7th-8th               4
+9257    19   Without-pay   344858        HS-grad               9
+15533   21   Without-pay   232719        HS-grad               9
+15695   22   Without-pay   302347        HS-grad               9
+16812   46   Without-pay   142210        HS-grad               9
+20073   65   Without-pay   172949        HS-grad               9
+21944   52   Without-pay   198262        HS-grad               9
+22215   19   Without-pay    43887        HS-grad               9
+24596   62   Without-pay   170114     Assoc-acdm              12
+25500   29   Without-pay   212588   Some-college              10
+27747   72   Without-pay   121004        HS-grad               9
+28829   68   Without-pay   174695   Some-college              10
+29158   67   Without-pay   137192        HS-grad               9
+32262   62   Without-pay   159908   Some-college              10
+               marital-status          occupation  relationship  \
+1901                  Widowed     Farming-fishing     Unmarried
+9257            Never-married     Farming-fishing     Own-child
+15533           Never-married        Craft-repair     Own-child
+15695           Never-married   Handlers-cleaners     Own-child
+16812      Married-civ-spouse   Machine-op-inspct          Wife
+20073      Married-civ-spouse    Transport-moving       Husband
+21944      Married-civ-spouse        Adm-clerical          Wife
+22215           Never-married     Farming-fishing     Own-child
+24596      Married-civ-spouse     Farming-fishing       Husband
+25500      Married-civ-spouse     Farming-fishing     Own-child
+27747      Married-civ-spouse       Other-service       Husband
+28829   Married-spouse-absent     Farming-fishing     Unmarried
+29158      Married-civ-spouse        Adm-clerical       Husband
+32262      Married-civ-spouse        Adm-clerical          Wife
+                      race      sex   capital-gain   capital-loss  \
+1901                 White   Female              0              0
+9257                 White     Male              0              0
+15533                Black     Male              0              0
+15695                White     Male           4416              0
+16812                White   Female              0              0
+20073                White     Male           2414              0
+21944                White   Female              0              0
+22215                White     Male              0              0
+24596                White     Male              0              0
+25500                White     Male              0              0
+27747                White     Male              0              0
+28829                White   Female              0              0
+29158   Asian-Pac-Islander     Male              0              0
+32262                White   Female              0              0
+        hours-per-week  native-country  salary
+1901                50   United-States   <=50K
+9257                20   United-States   <=50K
+15533               40   United-States   <=50K
+15695               40   United-States   <=50K
+16812               25   United-States   <=50K
+20073               20   United-States   <=50K
+21944               30   United-States   <=50K
+22215               10   United-States   <=50K
+24596               50   United-States   <=50K
+25500               65   United-States   <=50K
+27747               55   United-States   <=50K
+28829               25   United-States   <=50K
+29158               12     Philippines   <=50K
+32262               16   United-States   <=50K
+       age      workclass   fnlwgt      education   education-num  \
+5361    18   Never-worked   206359           10th               6
+10845   23   Never-worked   188535        7th-8th               4
+14772   17   Never-worked   237272           10th               6
+20337   18   Never-worked   157131           11th               7
+23232   20   Never-worked   462294   Some-college              10
+32304   30   Never-worked   176673        HS-grad               9
+32314   18   Never-worked   153663   Some-college              10
+            marital-status  occupation    relationship    race      sex  \
+5361         Never-married           ?       Own-child   White     Male
+10845             Divorced           ?   Not-in-family   White     Male
+14772        Never-married           ?       Own-child   White     Male
+20337        Never-married           ?       Own-child   White   Female
+23232        Never-married           ?       Own-child   Black     Male
+32304   Married-civ-spouse           ?            Wife   Black   Female
+32314        Never-married           ?       Own-child   White     Male
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+5361               0              0               40   United-States   <=50K
+10845              0              0               35   United-States   <=50K
+14772              0              0               30   United-States   <=50K
+20337              0              0               10   United-States   <=50K
+23232              0              0               40   United-States   <=50K
+32304              0              0               40   United-States   <=50K
+32314              0              0                4   United-States   <=50K
+     age   workclass   fnlwgt      education   education-num  \
+0     39   State-gov    77516      Bachelors              13
+11    30   State-gov   141297      Bachelors              13
+34    22   State-gov   311512   Some-college              10
+48    41   State-gov   101603      Assoc-voc              11
+123   29   State-gov   267989      Bachelors              13
+          marital-status       occupation    relationship  \
+0          Never-married     Adm-clerical   Not-in-family
+11    Married-civ-spouse   Prof-specialty         Husband
+34    Married-civ-spouse    Other-service         Husband
+48    Married-civ-spouse     Craft-repair         Husband
+123   Married-civ-spouse   Prof-specialty         Husband
+                    race    sex   capital-gain   capital-loss  \
+0                  White   Male           2174              0
+11    Asian-Pac-Islander   Male              0              0
+34                 Black   Male              0              0
+48                 White   Male              0              0
+123                White   Male              0              0
+      hours-per-week  native-country  salary
+0                 40   United-States   <=50K
+11                40           India    >50K
+34                15   United-States   <=50K
+48                40   United-States   <=50K
+123               50   United-States    >50K
+    age          workclass   fnlwgt    education   education-num  \
+1    50   Self-emp-not-inc    83311    Bachelors              13
+7    52   Self-emp-not-inc   209642      HS-grad               9
+16   25   Self-emp-not-inc   176756      HS-grad               9
+19   43   Self-emp-not-inc   292175      Masters              14
+39   48   Self-emp-not-inc   265477   Assoc-acdm              12
+         marital-status        occupation  relationship    race      sex  \
+1    Married-civ-spouse   Exec-managerial       Husband   White     Male
+7    Married-civ-spouse   Exec-managerial       Husband   White     Male
+16        Never-married   Farming-fishing     Own-child   White     Male
+19             Divorced   Exec-managerial     Unmarried   White   Female
+39   Married-civ-spouse    Prof-specialty       Husband   White     Male
+     capital-gain   capital-loss   hours-per-week  native-country  salary
+1               0              0               13   United-States   <=50K
+7               0              0               45   United-States    >50K
+16              0              0               35   United-States   <=50K
+19              0              0               45   United-States    >50K
+39              0              0               40   United-States   <=50K
+   age  workclass   fnlwgt   education   education-num  \
+2   38    Private   215646     HS-grad               9
+3   53    Private   234721        11th               7
+4   28    Private   338409   Bachelors              13
+5   37    Private   284582     Masters              14
+6   49    Private   160187         9th               5
+           marital-status          occupation    relationship    race  \
+2                Divorced   Handlers-cleaners   Not-in-family   White
+3      Married-civ-spouse   Handlers-cleaners         Husband   Black
+4      Married-civ-spouse      Prof-specialty            Wife   Black
+5      Married-civ-spouse     Exec-managerial            Wife   White
+6   Married-spouse-absent       Other-service   Not-in-family   Black
+       sex   capital-gain   capital-loss   hours-per-week  native-country  \
+2     Male              0              0               40   United-States
+3     Male              0              0               40   United-States
+4   Female              0              0               40            Cuba
+5   Female              0              0               40   United-States
+6   Female              0              0               16         Jamaica
+   salary
+2   <=50K
+3   <=50K
+4   <=50K
+5   <=50K
+6   <=50K
+    age     workclass   fnlwgt      education   education-num  \
+22   35   Federal-gov    76845            9th               5
+33   30   Federal-gov    59951   Some-college              10
+45   57   Federal-gov   337895      Bachelors              13
+53   50   Federal-gov   251585      Bachelors              13
+89   43   Federal-gov   410867      Doctorate              16
+         marital-status        occupation    relationship    race      sex  \
+22   Married-civ-spouse   Farming-fishing         Husband   Black     Male
+33   Married-civ-spouse      Adm-clerical       Own-child   White     Male
+45   Married-civ-spouse    Prof-specialty         Husband   Black     Male
+53             Divorced   Exec-managerial   Not-in-family   White     Male
+89        Never-married    Prof-specialty   Not-in-family   White   Female
+     capital-gain   capital-loss   hours-per-week  native-country  salary
+22              0              0               40   United-States   <=50K
+33              0              0               40   United-States   <=50K
+45              0              0               40   United-States    >50K
+53              0              0               55   United-States    >50K
+89              0              0               50   United-States    >50K
+    age   workclass   fnlwgt    education   education-num  \
+25   56   Local-gov   216851    Bachelors              13
+30   23   Local-gov   190709   Assoc-acdm              12
+79   31   Local-gov   125927      7th-8th               4
+86   49   Local-gov   268234      HS-grad               9
+94   34   Local-gov   226296    Bachelors              13
+         marital-status        occupation    relationship    race    sex  \
+25   Married-civ-spouse      Tech-support         Husband   White   Male
+30        Never-married   Protective-serv   Not-in-family   White   Male
+79   Married-civ-spouse   Farming-fishing         Husband   White   Male
+86   Married-civ-spouse   Protective-serv         Husband   White   Male
+94   Married-civ-spouse   Protective-serv         Husband   White   Male
+     capital-gain   capital-loss   hours-per-week  native-country  salary
+25              0              0               40   United-States    >50K
+30              0              0               52   United-States   <=50K
+79              0              0               40   United-States   <=50K
+86              0              0               40   United-States    >50K
+94              0              0               40   United-States    >50K
+     age  workclass   fnlwgt      education   education-num  \
+27    54          ?   180211   Some-college              10
+61    32          ?   293936        7th-8th               4
+69    25          ?   200681   Some-college              10
+77    67          ?   212759           10th               6
+106   17          ?   304873           10th               6
+             marital-status  occupation    relationship                 race  \
+27       Married-civ-spouse           ?         Husband   Asian-Pac-Islander
+61    Married-spouse-absent           ?   Not-in-family                White
+69            Never-married           ?       Own-child                White
+77       Married-civ-spouse           ?         Husband                White
+106           Never-married           ?       Own-child                White
+         sex   capital-gain   capital-loss   hours-per-week  native-country  \
+27      Male              0              0               60           South
+61      Male              0              0               40               ?
+69      Male              0              0               40   United-States
+77      Male              0              0                2   United-States
+106   Female          34095              0               32   United-States
+     salary
+27     >50K
+61    <=50K
+69    <=50K
+77    <=50K
+106   <=50K
+     age      workclass   fnlwgt      education   education-num  \
+54    47   Self-emp-inc   109832        HS-grad               9
+68    49   Self-emp-inc   191681   Some-college              10
+105   32   Self-emp-inc   317660        HS-grad               9
+116   56   Self-emp-inc   303090   Some-college              10
+140   61   Self-emp-inc    66614        HS-grad               9
+          marital-status        occupation    relationship    race    sex  \
+54              Divorced   Exec-managerial   Not-in-family   White   Male
+68    Married-civ-spouse   Exec-managerial         Husband   White   Male
+105   Married-civ-spouse      Craft-repair         Husband   White   Male
+116   Married-civ-spouse             Sales         Husband   White   Male
+140   Married-civ-spouse      Craft-repair         Husband   White   Male
+      capital-gain   capital-loss   hours-per-week  native-country  salary
+54               0              0               60   United-States   <=50K
+68               0              0               50   United-States    >50K
+105           7688              0               40   United-States    >50K
+116              0              0               50   United-States   <=50K
+140              0              0               40   United-States   <=50K
+       age     workclass   fnlwgt  education   education-num  \
+1901    65   Without-pay    27012    7th-8th               4
+9257    19   Without-pay   344858    HS-grad               9
+15533   21   Without-pay   232719    HS-grad               9
+15695   22   Without-pay   302347    HS-grad               9
+16812   46   Without-pay   142210    HS-grad               9
+            marital-status          occupation  relationship    race      sex  \
+1901               Widowed     Farming-fishing     Unmarried   White   Female
+9257         Never-married     Farming-fishing     Own-child   White     Male
+15533        Never-married        Craft-repair     Own-child   Black     Male
+15695        Never-married   Handlers-cleaners     Own-child   White     Male
+16812   Married-civ-spouse   Machine-op-inspct          Wife   White   Female
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+1901               0              0               50   United-States   <=50K
+9257               0              0               20   United-States   <=50K
+15533              0              0               40   United-States   <=50K
+15695           4416              0               40   United-States   <=50K
+16812              0              0               25   United-States   <=50K
+       age      workclass   fnlwgt      education   education-num  \
+5361    18   Never-worked   206359           10th               6
+10845   23   Never-worked   188535        7th-8th               4
+14772   17   Never-worked   237272           10th               6
+20337   18   Never-worked   157131           11th               7
+23232   20   Never-worked   462294   Some-college              10
+       marital-status  occupation    relationship    race      sex  \
+5361    Never-married           ?       Own-child   White     Male
+10845        Divorced           ?   Not-in-family   White     Male
+14772   Never-married           ?       Own-child   White     Male
+20337   Never-married           ?       Own-child   White   Female
+23232   Never-married           ?       Own-child   Black     Male
+        capital-gain   capital-loss   hours-per-week  native-country  salary
+5361               0              0               40   United-States   <=50K
+10845              0              0               35   United-States   <=50K
+14772              0              0               30   United-States   <=50K
+20337              0              0               10   United-States   <=50K
+23232              0              0               40   United-States   <=50K
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ReadTimeout), entering retry loop.

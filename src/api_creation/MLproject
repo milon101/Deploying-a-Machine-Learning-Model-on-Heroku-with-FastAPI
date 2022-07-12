@@ -1,0 +1,15 @@
+name: api_creation
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      mlflow_model_gbc:
+        description: An MLflow serialized model for Gradient Boosting
+        type: string
+
+      mlflow_model_lb:
+        description: An MLflow serialized model for label Binarizer
+        type: string
+
+    command: "python run.py  --mlflow_model_gbc {mlflow_model_gbc} --mlflow_model_lb {mlflow_model_lb}"

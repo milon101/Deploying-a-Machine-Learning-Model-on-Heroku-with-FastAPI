@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-08T00:11:47.607413",
+    "startedAt": "2022-07-08T00:11:44.520650",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py",
+    "codePath": "run.py",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/bin/python"
+}

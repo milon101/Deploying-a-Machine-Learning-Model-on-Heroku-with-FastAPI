@@ -1,0 +1,26 @@
+name: upload
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      sample:
+        description: "Name of the sample to upload"
+        type: string
+
+      artifact_name:
+        description: "Name of the output artifact"
+        type: string
+
+      artifact_type:
+        description: "Type of the artifact"
+        type: string
+
+      artifact_description:
+        description: "Description of the artifact"
+        type: string
+
+
+    command: >-
+        python run.py  --sample {sample}  --artifact_name {artifact_name}  --artifact_type {artifact_type}  --artifact_description {artifact_description} 

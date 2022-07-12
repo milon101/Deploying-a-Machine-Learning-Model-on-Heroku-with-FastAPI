@@ -1,0 +1,1019 @@
+
+2022-07-11 16:05:51,056 Downloading artifacts
+[32mINFO[39m:     Will watch for changes in these directories: ['/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation']
+2022-07-11 16:05:53,966 Will watch for changes in these directories: ['/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation']
+[32mINFO[39m:     Uvicorn running on [1mhttp://127.0.0.1:8000[22m (Press CTRL+C to quit)
+2022-07-11 16:05:53,966 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[32mINFO[39m:     Started reloader process [[36m[1m265714[39m[22m] using [36m[1mStatReload
+2022-07-11 16:05:53,966 Started reloader process [265714] using StatReload
+[32mINFO[39m:     Started server process [[36m265868[39m]
+2022-07-11 16:05:55,072 Started server process [265868]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:05:55,072 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:05:55,072 Application startup complete.
+[32mINFO[39m:     127.0.0.1:40216 - "[1mGET /docs HTTP/1.1[22m" [32m200 OK
+[32mINFO[39m:     127.0.0.1:40216 - "[1mGET /openapi.json HTTP/1.1[22m" [32m200 OK
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:07:31,586 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:07:31,638 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:07:31,739 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:07:31,739 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m265868[39m]
+2022-07-11 16:07:31,740 Finished server process [265868]
+[32mINFO[39m:     Started server process [[36m266106[39m]
+2022-07-11 16:07:33,299 Started server process [266106]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:07:33,299 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:07:33,299 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:21:16,511 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:21:16,514 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:21:16,614 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:21:16,615 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m266106[39m]
+2022-07-11 16:21:16,615 Finished server process [266106]
+[32mINFO[39m:     Started server process [[36m267297[39m]
+2022-07-11 16:21:18,252 Started server process [267297]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:21:18,252 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:21:18,253 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:28:01,605 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:28:01,691 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:28:01,792 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:28:01,793 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m267297[39m]
+2022-07-11 16:28:01,793 Finished server process [267297]
+[32mINFO[39m:     Started server process [[36m268031[39m]
+2022-07-11 16:28:03,612 Started server process [268031]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:28:03,613 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:28:03,613 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:29:22,115 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:29:22,212 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:29:22,313 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:29:22,313 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268031[39m]
+2022-07-11 16:29:22,314 Finished server process [268031]
+[32mINFO[39m:     Started server process [[36m268173[39m]
+2022-07-11 16:29:24,093 Started server process [268173]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:29:24,093 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:29:24,093 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:33:46,687 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:33:46,741 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:33:46,842 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:33:46,842 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268173[39m]
+2022-07-11 16:33:46,842 Finished server process [268173]
+[32mINFO[39m:     Started server process [[36m268461[39m]
+2022-07-11 16:33:48,452 Started server process [268461]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:33:48,452 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:33:48,453 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:34:11,828 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:34:11,861 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:34:11,962 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:34:11,962 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268461[39m]
+2022-07-11 16:34:11,962 Finished server process [268461]
+[32mINFO[39m:     Started server process [[36m268493[39m]
+2022-07-11 16:34:13,532 Started server process [268493]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:34:13,532 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:34:13,533 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:34:36,671 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:34:36,734 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:34:36,835 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:34:36,836 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268493[39m]
+2022-07-11 16:34:36,836 Finished server process [268493]
+[32mINFO[39m:     Started server process [[36m268533[39m]
+2022-07-11 16:34:38,726 Started server process [268533]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:34:38,726 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:34:38,726 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:35:01,119 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:35:01,130 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:35:01,231 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:35:01,232 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268533[39m]
+2022-07-11 16:35:01,232 Finished server process [268533]
+[32mINFO[39m:     Started server process [[36m268591[39m]
+2022-07-11 16:35:02,982 Started server process [268591]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:35:02,982 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:35:02,982 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:36:26,116 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:36:26,132 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:36:26,233 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:36:26,233 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268591[39m]
+2022-07-11 16:36:26,234 Finished server process [268591]
+[32mINFO[39m:     Started server process [[36m268686[39m]
+2022-07-11 16:36:27,930 Started server process [268686]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:36:27,930 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:36:27,930 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:37:16,867 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:37:16,948 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:37:17,049 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:37:17,049 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268686[39m]
+2022-07-11 16:37:17,049 Finished server process [268686]
+[32mINFO[39m:     Started server process [[36m268877[39m]
+2022-07-11 16:37:18,794 Started server process [268877]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:37:18,794 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:37:18,795 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:38:42,470 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:38:42,477 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:38:42,578 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:38:42,578 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268877[39m]
+2022-07-11 16:38:42,578 Finished server process [268877]
+[32mINFO[39m:     Started server process [[36m268999[39m]
+2022-07-11 16:38:44,200 Started server process [268999]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:38:44,200 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:38:44,201 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:38:55,741 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:38:55,757 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:38:55,858 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:38:55,858 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m268999[39m]
+2022-07-11 16:38:55,859 Finished server process [268999]
+[32mINFO[39m:     Started server process [[36m269027[39m]
+2022-07-11 16:38:57,501 Started server process [269027]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:38:57,502 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:38:57,502 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:39:17,811 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:39:17,889 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:39:17,990 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:39:17,990 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269027[39m]
+2022-07-11 16:39:17,991 Finished server process [269027]
+[32mINFO[39m:     Started server process [[36m269081[39m]
+2022-07-11 16:39:19,708 Started server process [269081]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:39:19,709 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:39:19,709 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:39:38,991 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:39:39,002 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:39:39,103 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:39:39,103 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269081[39m]
+2022-07-11 16:39:39,103 Finished server process [269081]
+[32mINFO[39m:     Started server process [[36m269144[39m]
+2022-07-11 16:39:40,855 Started server process [269144]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:39:40,856 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:39:40,856 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 16:40:44,595 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:40:44,661 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:40:44,762 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:40:44,762 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269144[39m]
+2022-07-11 16:40:44,762 Finished server process [269144]
+[32mINFO[39m:     Started server process [[36m269265[39m]
+2022-07-11 16:40:46,385 Started server process [269265]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:40:46,386 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:40:46,386 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:41:35,400 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:41:35,407 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:41:35,508 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:41:35,509 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269265[39m]
+2022-07-11 16:41:35,509 Finished server process [269265]
+[32mINFO[39m:     Started server process [[36m269329[39m]
+2022-07-11 16:41:37,160 Started server process [269329]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:41:37,160 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:41:37,160 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:42:09,325 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:42:09,404 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:42:09,505 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:42:09,506 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269329[39m]
+2022-07-11 16:42:09,506 Finished server process [269329]
+[32mINFO[39m:     Started server process [[36m269434[39m]
+2022-07-11 16:42:11,299 Started server process [269434]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:42:11,299 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:42:11,300 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:44:53,343 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:44:53,372 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:44:53,473 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:44:53,473 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m269434[39m]
+2022-07-11 16:44:53,473 Finished server process [269434]
+[32mINFO[39m:     Started server process [[36m270325[39m]
+2022-07-11 16:44:55,328 Started server process [270325]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:44:55,328 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:44:55,329 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:54:38,359 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:54:38,363 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:54:38,464 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:54:38,465 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m270325[39m]
+2022-07-11 16:54:38,465 Finished server process [270325]
+[32mINFO[39m:     Started server process [[36m271663[39m]
+2022-07-11 16:54:40,349 Started server process [271663]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:54:40,349 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:54:40,350 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:55:45,260 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:55:45,285 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:55:45,386 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:55:45,386 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m271663[39m]
+2022-07-11 16:55:45,386 Finished server process [271663]
+[32mINFO[39m:     Started server process [[36m271829[39m]
+2022-07-11 16:55:47,263 Started server process [271829]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:55:47,263 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:55:47,264 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:56:03,656 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:56:03,717 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:56:03,817 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:56:03,818 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m271829[39m]
+2022-07-11 16:56:03,818 Finished server process [271829]
+[32mINFO[39m:     Started server process [[36m271885[39m]
+2022-07-11 16:56:05,561 Started server process [271885]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:56:05,561 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:56:05,561 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 16:57:41,491 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 16:57:41,535 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 16:57:41,636 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 16:57:41,636 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m271885[39m]
+2022-07-11 16:57:41,637 Finished server process [271885]
+[32mINFO[39m:     Started server process [[36m272177[39m]
+2022-07-11 16:57:43,374 Started server process [272177]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 16:57:43,374 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 16:57:43,375 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:00:27,742 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:00:27,818 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:00:27,919 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:00:27,920 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m272177[39m]
+2022-07-11 17:00:27,920 Finished server process [272177]
+[32mINFO[39m:     Started server process [[36m272438[39m]
+2022-07-11 17:00:29,591 Started server process [272438]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:00:29,591 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:00:29,592 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:00:29,592 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:00:48,635 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272469[39m]
+2022-07-11 17:00:50,002 Started server process [272469]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:00:50,002 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:00:50,003 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:00:50,003 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:01:31,630 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272542[39m]
+2022-07-11 17:01:32,975 Started server process [272542]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:01:32,975 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:01:32,976 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:01:32,976 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:02:04,306 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272674[39m]
+2022-07-11 17:02:05,742 Started server process [272674]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:02:05,742 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:02:05,742 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:02:05,743 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:02:30,696 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272726[39m]
+2022-07-11 17:02:32,162 Started server process [272726]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:02:32,162 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:02:32,162 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:02:32,163 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:03:57,959 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272853[39m]
+2022-07-11 17:03:59,314 Started server process [272853]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:03:59,314 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:03:59,315 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:03:59,315 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 17:06:10,321 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272950[39m]
+2022-07-11 17:06:11,655 Started server process [272950]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:06:11,655 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:06:11,655 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:06:11,656 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 17:06:38,730 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m272978[39m]
+2022-07-11 17:06:40,078 Started server process [272978]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:06:40,078 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:06:40,079 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:06:40,079 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:08:45,275 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m273168[39m]
+2022-07-11 17:08:46,464 Started server process [273168]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:08:46,464 Waiting for application startup.
+[31mERROR[39m:    Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+2022-07-11 17:08:46,465 Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 635, in lifespan
+    async with self.lifespan_context(app):
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 530, in __aenter__
+    await self._router.startup()
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/site-packages/starlette/routing.py", line 614, in startup
+    handler()
+TypeError: go() missing 1 required positional argument: 'args'
+[31mERROR[39m:    Application startup failed. Exiting.
+2022-07-11 17:08:46,465 Application startup failed. Exiting.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:09:30,820 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Started server process [[36m273201[39m]
+2022-07-11 17:09:32,087 Started server process [273201]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:09:32,087 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:09:32,088 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:09:36,349 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:09:36,408 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:09:36,509 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:09:36,510 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273201[39m]
+2022-07-11 17:09:36,510 Finished server process [273201]
+[32mINFO[39m:     Started server process [[36m273226[39m]
+2022-07-11 17:09:38,194 Started server process [273226]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:09:38,194 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:09:38,194 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:10:58,376 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:10:58,438 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:10:58,539 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:10:58,540 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273226[39m]
+2022-07-11 17:10:58,540 Finished server process [273226]
+[32mINFO[39m:     Started server process [[36m273563[39m]
+2022-07-11 17:11:00,181 Started server process [273563]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:11:00,181 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:11:00,182 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:11:29,812 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:11:29,904 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:11:30,004 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:11:30,005 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273563[39m]
+2022-07-11 17:11:30,005 Finished server process [273563]
+[32mINFO[39m:     Started server process [[36m273591[39m]
+2022-07-11 17:11:31,784 Started server process [273591]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:11:31,785 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:11:31,785 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:11:37,441 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:11:37,506 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:11:37,606 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:11:37,607 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273591[39m]
+2022-07-11 17:11:37,607 Finished server process [273591]
+[32mINFO[39m:     Started server process [[36m273622[39m]
+2022-07-11 17:11:39,333 Started server process [273622]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:11:39,333 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:11:39,334 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:13:32,523 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:13:32,578 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:13:32,679 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:13:32,680 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273622[39m]
+2022-07-11 17:13:32,680 Finished server process [273622]
+[32mINFO[39m:     Started server process [[36m273883[39m]
+2022-07-11 17:13:34,372 Started server process [273883]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:13:34,372 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:13:34,373 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:14:39,932 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:14:39,980 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:14:40,081 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:14:40,081 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273883[39m]
+2022-07-11 17:14:40,081 Finished server process [273883]
+[32mINFO[39m:     Started server process [[36m273946[39m]
+2022-07-11 17:14:41,751 Started server process [273946]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:14:41,751 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:14:41,751 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'test_run.py'. Reloading...
+2022-07-11 17:15:19,459 StatReload detected changes in 'test_run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:15:19,518 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:15:19,619 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:15:19,619 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m273946[39m]
+2022-07-11 17:15:19,619 Finished server process [273946]
+[32mINFO[39m:     Started server process [[36m274015[39m]
+2022-07-11 17:15:21,355 Started server process [274015]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:15:21,355 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:15:21,355 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:16:27,955 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:16:28,056 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:16:28,157 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:16:28,158 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274015[39m]
+2022-07-11 17:16:28,158 Finished server process [274015]
+[32mINFO[39m:     Started server process [[36m274086[39m]
+2022-07-11 17:16:29,770 Started server process [274086]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:16:29,771 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:16:29,771 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:16:44,594 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:16:44,630 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:16:44,731 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:16:44,731 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274086[39m]
+2022-07-11 17:16:44,731 Finished server process [274086]
+[32mINFO[39m:     Started server process [[36m274183[39m]
+2022-07-11 17:16:46,484 Started server process [274183]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:16:46,484 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:16:46,484 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:21:22,774 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:21:22,854 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:21:22,955 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:21:22,955 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274183[39m]
+2022-07-11 17:21:22,956 Finished server process [274183]
+[32mINFO[39m:     Started server process [[36m274433[39m]
+2022-07-11 17:21:24,654 Started server process [274433]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:21:24,655 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:21:24,655 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:21:44,426 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:21:44,525 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:21:44,626 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:21:44,626 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274433[39m]
+2022-07-11 17:21:44,627 Finished server process [274433]
+[32mINFO[39m:     Started server process [[36m274492[39m]
+2022-07-11 17:21:46,411 Started server process [274492]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:21:46,411 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:21:46,411 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:21:59,872 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:21:59,960 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:22:00,061 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:22:00,061 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274492[39m]
+2022-07-11 17:22:00,061 Finished server process [274492]
+[32mINFO[39m:     Started server process [[36m274533[39m]
+2022-07-11 17:22:01,840 Started server process [274533]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:22:01,840 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:22:01,840 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:23:04,318 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:23:04,380 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:23:04,481 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:23:04,481 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274533[39m]
+2022-07-11 17:23:04,481 Finished server process [274533]
+[32mINFO[39m:     Started server process [[36m274669[39m]
+2022-07-11 17:23:06,219 Started server process [274669]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:23:06,219 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:23:06,220 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:25:17,607 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:25:17,683 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:25:17,784 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:25:17,785 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274669[39m]
+2022-07-11 17:25:17,785 Finished server process [274669]
+[32mINFO[39m:     Started server process [[36m274851[39m]
+2022-07-11 17:25:19,419 Started server process [274851]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:25:19,419 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:25:19,420 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:25:39,500 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:25:39,505 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:25:39,606 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:25:39,606 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274851[39m]
+2022-07-11 17:25:39,606 Finished server process [274851]
+[32mINFO[39m:     Started server process [[36m274889[39m]
+2022-07-11 17:25:41,349 Started server process [274889]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:25:41,349 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:25:41,350 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:27:43,394 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:27:43,430 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:27:43,530 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:27:43,531 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m274889[39m]
+2022-07-11 17:27:43,531 Finished server process [274889]
+[32mINFO[39m:     Started server process [[36m275099[39m]
+2022-07-11 17:27:45,193 Started server process [275099]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:27:45,193 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:27:45,194 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:31:07,353 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:31:07,436 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:31:07,537 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:31:07,537 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m275099[39m]
+2022-07-11 17:31:07,538 Finished server process [275099]
+[32mINFO[39m:     Started server process [[36m275555[39m]
+2022-07-11 17:31:09,138 Started server process [275555]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:31:09,139 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:31:09,139 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 17:32:18,267 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 17:32:18,310 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 17:32:18,411 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 17:32:18,412 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m275555[39m]
+2022-07-11 17:32:18,412 Finished server process [275555]
+[32mINFO[39m:     Started server process [[36m275675[39m]
+2022-07-11 17:32:20,211 Started server process [275675]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 17:32:20,211 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 17:32:20,212 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 18:54:57,844 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 18:54:57,890 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 18:54:57,991 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 18:54:57,991 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m275675[39m]
+2022-07-11 18:54:57,991 Finished server process [275675]
+[32mINFO[39m:     Started server process [[36m281005[39m]
+2022-07-11 18:55:00,405 Started server process [281005]
+[32mINFO[39m:     Waiting for application startup.
+2022-07-11 18:55:00,405 Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+2022-07-11 18:55:00,405 Application startup complete.
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 18:55:38,416 StatReload detected changes in 'run.py'. Reloading...
+[32mINFO[39m:     Shutting down
+2022-07-11 18:55:38,420 Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+2022-07-11 18:55:38,520 Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+2022-07-11 18:55:38,521 Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m281005[39m]
+2022-07-11 18:55:38,522 Finished server process [281005]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/run.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 18:57:12,656 StatReload detected changes in 'run.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/run.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 18:58:10,697 StatReload detected changes in 'run.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/run.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 18:58:52,413 StatReload detected changes in 'run.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/run.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+[33mWARNING[39m:  StatReload detected changes in 'run.py'. Reloading...
+2022-07-11 19:00:00,566 StatReload detected changes in 'run.py'. Reloading...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/imdadul/miniconda3/envs/mlflow-cd6ed26efa2bbf86ee3cef4c2863cc985283a774/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/run.py", line 16, in <module>
+    import hydra
+ModuleNotFoundError: No module named 'hydra'
+[32mINFO[39m:     Stopping reloader process [[36m[1m265714[39m[22m]
+2022-07-11 19:00:13,466 Stopping reloader process [265714]

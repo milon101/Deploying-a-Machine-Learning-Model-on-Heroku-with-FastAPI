@@ -1,0 +1,7 @@
+2022-07-05 11:11:41,934 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_random_forest/run.py", line 246, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_random_forest/run.py", line 62, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+AttributeError: 'Namespace' object has no attribute 'max_tfidf_features'

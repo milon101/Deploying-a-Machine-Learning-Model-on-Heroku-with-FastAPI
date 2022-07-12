@@ -1,0 +1,154 @@
+2022-07-05 09:54:30,959 INFO    MainThread:490837 [internal.py:wandb_internal():90] W&B internal server running at pid: 490837, started at: 2022-07-05 09:54:30.959432
+2022-07-05 09:54:30,961 INFO    WriterThread:490837 [datastore.py:open_for_write():75] open: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/run-1eqitg55.wandb
+2022-07-05 09:54:30,963 DEBUG   SenderThread:490837 [sender.py:send():235] send: header
+2022-07-05 09:54:30,963 DEBUG   SenderThread:490837 [sender.py:send():235] send: run
+2022-07-05 09:54:31,312 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: check_version
+2022-07-05 09:54:31,316 INFO    SenderThread:490837 [dir_watcher.py:__init__():205] watching files in: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files
+2022-07-05 09:54:31,317 INFO    SenderThread:490837 [sender.py:_start_run_threads():812] run started: 1eqitg55 with start time 1657011270
+2022-07-05 09:54:31,317 DEBUG   SenderThread:490837 [sender.py:send():235] send: summary
+2022-07-05 09:54:31,317 INFO    SenderThread:490837 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-05 09:54:31,317 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: check_version
+2022-07-05 09:54:32,280 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: run_start
+2022-07-05 09:54:32,320 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_created():256] file/dir created: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-summary.json
+2022-07-05 09:54:33,491 DEBUG   HandlerThread:490837 [meta.py:__init__():35] meta init
+2022-07-05 09:54:33,491 DEBUG   HandlerThread:490837 [meta.py:__init__():49] meta init done
+2022-07-05 09:54:33,491 DEBUG   HandlerThread:490837 [meta.py:probe():209] probe
+2022-07-05 09:54:33,497 DEBUG   HandlerThread:490837 [git.py:repo():29] git repository is invalid
+2022-07-05 09:54:33,497 DEBUG   HandlerThread:490837 [meta.py:_save_pip():53] save pip
+2022-07-05 09:54:33,497 DEBUG   HandlerThread:490837 [meta.py:_save_pip():67] save pip done
+2022-07-05 09:54:33,498 DEBUG   HandlerThread:490837 [meta.py:_save_conda():74] save conda
+2022-07-05 09:54:34,320 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_created():256] file/dir created: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/requirements.txt
+2022-07-05 09:54:34,320 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_created():256] file/dir created: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/conda-environment.yaml
+2022-07-05 09:54:34,701 DEBUG   HandlerThread:490837 [meta.py:_save_conda():84] save conda done
+2022-07-05 09:54:34,701 DEBUG   HandlerThread:490837 [meta.py:probe():247] probe done
+2022-07-05 09:54:34,705 DEBUG   SenderThread:490837 [sender.py:send():235] send: files
+2022-07-05 09:54:34,705 INFO    SenderThread:490837 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-05 09:54:34,710 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-05 09:54:34,710 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: stop_status
+2022-07-05 09:54:35,002 DEBUG   SenderThread:490837 [sender.py:send():235] send: telemetry
+2022-07-05 09:54:35,002 DEBUG   SenderThread:490837 [sender.py:send():235] send: config
+2022-07-05 09:54:35,002 DEBUG   SenderThread:490837 [sender.py:send():235] send: telemetry
+2022-07-05 09:54:35,321 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/conda-environment.yaml
+2022-07-05 09:54:35,321 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_created():256] file/dir created: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-metadata.json
+2022-07-05 09:54:35,322 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_created():256] file/dir created: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/output.log
+2022-07-05 09:54:35,450 INFO    Thread-11 :490837 [upload_job.py:push():132] Uploaded file /tmp/tmpnwt0mqp2wandb/2yg3t8d2-wandb-metadata.json
+2022-07-05 09:54:37,225 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:37,226 DEBUG   SenderThread:490837 [sender.py:send():235] send: exit
+2022-07-05 09:54:37,226 INFO    SenderThread:490837 [sender.py:send_exit():371] handling exit code: 1
+2022-07-05 09:54:37,226 INFO    SenderThread:490837 [sender.py:send_exit():373] handling runtime: 4
+2022-07-05 09:54:37,227 INFO    SenderThread:490837 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-05 09:54:37,227 INFO    SenderThread:490837 [sender.py:send_exit():379] send defer
+2022-07-05 09:54:37,228 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:37,229 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,229 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-05 09:54:37,230 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,230 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-05 09:54:37,230 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 1
+2022-07-05 09:54:37,231 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,231 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-05 09:54:37,322 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/output.log
+2022-07-05 09:54:37,323 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-summary.json
+2022-07-05 09:54:37,344 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,344 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:37,345 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-05 09:54:37,345 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 2
+2022-07-05 09:54:37,345 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:37,346 DEBUG   SenderThread:490837 [sender.py:send():235] send: stats
+2022-07-05 09:54:37,347 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,347 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-05 09:54:37,347 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,347 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-05 09:54:37,348 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 3
+2022-07-05 09:54:37,348 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,348 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-05 09:54:37,348 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,349 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-05 09:54:37,349 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 4
+2022-07-05 09:54:37,349 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,349 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-05 09:54:37,350 DEBUG   SenderThread:490837 [sender.py:send():235] send: summary
+2022-07-05 09:54:37,350 INFO    SenderThread:490837 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-05 09:54:37,350 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,351 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-05 09:54:37,351 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 5
+2022-07-05 09:54:37,351 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,351 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-05 09:54:37,351 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,351 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-05 09:54:37,448 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:37,593 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 6
+2022-07-05 09:54:37,594 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:37,595 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:37,595 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-05 09:54:37,596 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:37,596 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-05 09:54:37,596 INFO    SenderThread:490837 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-05 09:54:37,697 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,323 INFO    Thread-7  :490837 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/config.yaml
+2022-07-05 09:54:38,324 INFO    SenderThread:490837 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-summary.json
+2022-07-05 09:54:38,325 INFO    SenderThread:490837 [dir_watcher.py:finish():366] scan: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files
+2022-07-05 09:54:38,325 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-summary.json wandb-summary.json
+2022-07-05 09:54:38,325 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/requirements.txt requirements.txt
+2022-07-05 09:54:38,326 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/output.log output.log
+2022-07-05 09:54:38,333 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/conda-environment.yaml conda-environment.yaml
+2022-07-05 09:54:38,333 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/config.yaml config.yaml
+2022-07-05 09:54:38,334 INFO    SenderThread:490837 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-metadata.json wandb-metadata.json
+2022-07-05 09:54:38,334 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 7
+2022-07-05 09:54:38,334 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,347 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:38,347 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-05 09:54:38,350 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:38,351 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-05 09:54:38,351 INFO    SenderThread:490837 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-05 09:54:38,437 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,437 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,541 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,541 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,644 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,645 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,747 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,747 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,850 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,851 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,954 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:38,954 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:38,990 INFO    Thread-14 :490837 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/output.log
+2022-07-05 09:54:38,999 INFO    Thread-13 :490837 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/requirements.txt
+2022-07-05 09:54:39,000 INFO    Thread-12 :490837 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/wandb-summary.json
+2022-07-05 09:54:39,001 INFO    Thread-16 :490837 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/config.yaml
+2022-07-05 09:54:39,030 INFO    Thread-15 :490837 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/files/conda-environment.yaml
+2022-07-05 09:54:39,057 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:39,058 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:39,160 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:39,161 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:39,231 INFO    Thread-6 (_thread_body):490837 [sender.py:transition_state():392] send defer: 8
+2022-07-05 09:54:39,231 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:39,231 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-05 09:54:39,231 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:39,231 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-05 09:54:39,264 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:39,483 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 9
+2022-07-05 09:54:39,483 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:39,485 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:39,485 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-05 09:54:39,486 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:39,486 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-05 09:54:39,486 INFO    SenderThread:490837 [sender.py:transition_state():392] send defer: 10
+2022-07-05 09:54:39,487 DEBUG   SenderThread:490837 [sender.py:send():235] send: final
+2022-07-05 09:54:39,488 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: defer
+2022-07-05 09:54:39,489 DEBUG   SenderThread:490837 [sender.py:send():235] send: footer
+2022-07-05 09:54:39,489 INFO    HandlerThread:490837 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-05 09:54:39,490 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: defer
+2022-07-05 09:54:39,490 INFO    SenderThread:490837 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-05 09:54:39,586 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-05 09:54:39,587 DEBUG   SenderThread:490837 [sender.py:send_request():249] send_request: poll_exit
+2022-07-05 09:54:39,587 INFO    SenderThread:490837 [file_pusher.py:join():150] waiting for file pusher
+2022-07-05 09:54:40,220 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-05 09:54:40,222 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-05 09:54:40,224 DEBUG   HandlerThread:490837 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-05 09:54:40,225 INFO    HandlerThread:490837 [handler.py:finish():806] shutting down handler
+2022-07-05 09:54:40,488 INFO    WriterThread:490837 [datastore.py:close():279] close: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/wandb/run-20220705_095430-1eqitg55/run-1eqitg55.wandb
+2022-07-05 09:54:41,118 INFO    SenderThread:490837 [sender.py:finish():1111] shutting down sender
+2022-07-05 09:54:41,118 INFO    SenderThread:490837 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-05 09:54:41,118 INFO    SenderThread:490837 [file_pusher.py:join():150] waiting for file pusher
+2022-07-05 09:54:41,122 INFO    MainThread:490837 [internal.py:handle_exit():80] Internal process exited

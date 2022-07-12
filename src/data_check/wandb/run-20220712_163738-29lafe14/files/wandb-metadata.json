@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-12T15:37:39.904573",
+    "startedAt": "2022-07-12T15:37:38.759421",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_census.csv:latest"
+    ],
+    "state": "running",
+    "program": "/home/imdadul/miniconda3/envs/mlflow-7c6ff1c96d0026ebd7a0d726874ac6d055bfb2ab/bin/pytest",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/mlflow-7c6ff1c96d0026ebd7a0d726874ac6d055bfb2ab/bin/python"
+}

@@ -1,0 +1,46 @@
+name: download_file
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      trainval_artifact:
+        description: Train dataset
+        type: string
+
+      val_size:
+        description: Size of the validation split. Fraction of the dataset, or number of items
+        type: string
+
+      random_seed:
+        description: Seed for the random number generator. Use this for reproducibility
+        type: string
+        default: 42
+
+      stratify_by:
+        description: Column to use for stratification (if any)
+        type: string
+        default: 'none'
+
+      gbc_config:
+        description: Gradient Boosting configuration. A path to a JSON file with the configuration that will
+                     be passed to the scikit-learn constructor for RandomForestRegressor.
+        type: string
+
+      output_artifact_gbc:
+        description: Name for the output artifact
+        type: string
+
+      output_artifact_lb:
+        description: Name for the output artifact
+        type: string
+
+    command: >-
+      python run.py --trainval_artifact {trainval_artifact} \
+                    --val_size {val_size} \
+                    --random_seed {random_seed} \
+                    --stratify_by {stratify_by} \
+                    --gbc_config {gbc_config} \
+                    --output_artifact_gbc {output_artifact_gbc} \
+                    --output_artifact_lb {output_artifact_lb} 

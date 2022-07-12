@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.13.0-51-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T13:06:00.286430",
+    "startedAt": "2022-07-04T13:05:59.456300",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--sample",
+        "census.csv",
+        "--artifact_name",
+        "census.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Raw file as downloaded"
+    ],
+    "state": "running",
+    "program": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/upload/run.py",
+    "codePath": "run.py",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/mlflow-9f5f4f3cda10ab2347ccce9b6c5c738f71f13546/bin/python"
+}

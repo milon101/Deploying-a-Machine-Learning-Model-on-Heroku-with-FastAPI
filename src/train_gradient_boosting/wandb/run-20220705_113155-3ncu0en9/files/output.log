@@ -1,0 +1,12 @@
+2022-07-05 11:32:00,637 Preparing sklearn pipeline
+2022-07-05 11:32:00,637 Fitting
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_random_forest/run.py", line 246, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_random_forest/run.py", line 70, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/sklearn/pipeline.py", line 382, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/lib/python3.10/site-packages/sklearn/ensemble/_forest.py", line 374, in fit
+    y = np.ascontiguousarray(y, dtype=DOUBLE)
+ValueError: could not convert string to float: ' <=50K'

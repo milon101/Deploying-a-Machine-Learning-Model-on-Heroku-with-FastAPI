@@ -1,0 +1,33 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.19
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.5
+    start_time: 1657308491
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      4: 3.10.5
+      5: 0.12.19
+      8:
+      - 5
+mlflow_model_gbc:
+  desc: null
+  value: gradient_boosting_export:latest
+mlflow_model_lb:
+  desc: null
+  value: label_binarizer_export:latest
+test_dataset:
+  desc: null
+  value: test_data.csv:latest

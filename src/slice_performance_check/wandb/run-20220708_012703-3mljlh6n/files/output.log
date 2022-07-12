@@ -1,0 +1,31 @@
+
+2022-07-08 01:27:07,513 Downloading artifacts
+2022-07-08 01:27:10,013 Loading model and performing inference on test set
+2022-07-08 01:27:10,070 Scoring
+Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 111, in _check_targets
+    unique_values = np.union1d(y_true, y_pred)
+  File "<__array_function__ internals>", line 180, in union1d
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 777, in union1d
+    return unique(np.concatenate((ar1, ar2), axis=None))
+  File "<__array_function__ internals>", line 180, in unique
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 272, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/numpy/lib/arraysetops.py", line 333, in _unique1d
+    ar.sort()
+TypeError: '<' not supported between instances of 'int' and 'str'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 73, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 41, in go
+    r_squared = sk_pipe.score(X_test, y_test)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/pipeline.py", line 699, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/base.py", line 666, in score
+    return accuracy_score(y, self.predict(X), sample_weight=sample_weight)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 211, in accuracy_score
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 117, in _check_targets
+    raise TypeError(
+TypeError: Labels in y_true and y_pred should be of the same type. Got y_true=[' <=50K' ' >50K'] and y_pred=[0 1]. Make sure that the predictions provided by the classifier coincides with the true labels.

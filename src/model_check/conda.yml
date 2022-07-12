@@ -1,0 +1,9 @@
+name: model_check
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas=1.4.3
+  - pip=22.1.2
+  - pytest=7.1.2
+  - mlflow=1.27.0

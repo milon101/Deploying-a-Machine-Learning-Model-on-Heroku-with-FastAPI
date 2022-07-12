@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-11T18:06:14.046313",
+    "startedAt": "2022-07-11T18:06:13.041621",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "none",
+        "--gbc_config",
+        "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/outputs/2022-07-11/19-05-13/gbc_config.json",
+        "--output_artifact_gbc",
+        "gradient_boosting_export",
+        "--output_artifact_lb",
+        "label_binarizer_export"
+    ],
+    "state": "running",
+    "program": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/run.py",
+    "codePath": "run.py",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/mlflow-0de342770e7ce12176a4dd86c6d72609da6e87bd/bin/python"
+}

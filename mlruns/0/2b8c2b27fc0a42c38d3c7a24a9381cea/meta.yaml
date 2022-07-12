@@ -1,0 +1,15 @@
+artifact_uri: file:///home/imdadul/Project%20Folder/Deploying%20a%20Machine%20Learning%20Model%20on%20Heroku%20with%20FastAPI/mlruns/0/2b8c2b27fc0a42c38d3c7a24a9381cea/artifacts
+end_time: 1657016343050
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 2b8c2b27fc0a42c38d3c7a24a9381cea
+run_uuid: 2b8c2b27fc0a42c38d3c7a24a9381cea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657016341955
+status: 4
+tags: []
+user_id: imdadul

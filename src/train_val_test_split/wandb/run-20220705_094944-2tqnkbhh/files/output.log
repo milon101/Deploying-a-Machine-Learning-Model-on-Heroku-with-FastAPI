@@ -1,0 +1,11 @@
+2022-07-05 09:49:47,689 Fething artifact None
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 110, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_val_test_split/run.py", line 53, in go
+    artifact_local_path = run.use_artifact(args.input).file()
+  File "/home/imdadul/miniconda3/envs/mlflow-89939b1aa50a2d5fcd882e362a07119fbc9acdd2/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/imdadul/miniconda3/envs/mlflow-89939b1aa50a2d5fcd882e362a07119fbc9acdd2/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2369, in use_artifact
+    raise ValueError(
+ValueError: You must pass an artifact name (e.g. "pedestrian-dataset:v1"), an instance of `wandb.Artifact`, or `wandb.Api().artifact()` to `use_artifact`

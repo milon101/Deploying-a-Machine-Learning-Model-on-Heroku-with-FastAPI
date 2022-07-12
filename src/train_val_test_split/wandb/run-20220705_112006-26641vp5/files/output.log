@@ -1,0 +1,4 @@
+2022-07-05 11:20:08,873 Fething artifact clean_census.csv:latest
+2022-07-05 11:20:10,358 Splitting trainval and test
+2022-07-05 11:20:10,365 Uploading trainval_data.csv dataset
+2022-07-05 11:20:17,490 Uploading test_data.csv dataset

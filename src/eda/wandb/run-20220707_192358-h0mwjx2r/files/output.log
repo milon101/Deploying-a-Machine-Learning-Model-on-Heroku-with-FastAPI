@@ -1,0 +1,21 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 30162 entries, 0 to 32560
+Data columns (total 15 columns):
+ #   Column           Non-Null Count  Dtype
+---  ------           --------------  -----
+ 0   age              30162 non-null  int64
+ 1    workclass       30162 non-null  object
+ 2    fnlwgt          30162 non-null  int64
+ 3    education       30162 non-null  object
+ 4    education-num   30162 non-null  int64
+ 5    marital-status  30162 non-null  object
+ 6    occupation      30162 non-null  object
+ 7    relationship    30162 non-null  object
+ 8    race            30162 non-null  object
+ 9    sex             30162 non-null  object
+ 10   capital-gain    30162 non-null  int64
+ 11   capital-loss    30162 non-null  int64
+ 12   hours-per-week  30162 non-null  int64
+ 13   native-country  30162 non-null  object
+ 14   salary          30162 non-null  object
+dtypes: int64(6), object(9)

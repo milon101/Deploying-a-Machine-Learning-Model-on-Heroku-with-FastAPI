@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-08T19:21:27.602581",
+    "startedAt": "2022-07-08T19:21:25.432898",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--mlflow_model_gbc",
+        "gradient_boosting_export:latest",
+        "--mlflow_model_lb",
+        "label_binarizer_export:latest",
+        "--test_dataset",
+        "test_data.csv:latest"
+    ],
+    "state": "running",
+    "program": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py",
+    "codePath": "run.py",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/bin/python"
+}

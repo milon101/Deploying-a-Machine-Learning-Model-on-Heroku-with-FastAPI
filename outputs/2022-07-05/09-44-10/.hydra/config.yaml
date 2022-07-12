@@ -1,0 +1,12 @@
+main:
+  project_name: usa_census
+  experiment_name: development
+  steps: data_split
+etl:
+  sample: census.csv
+modeling:
+  test_size: 0.2
+  val_size: 0.2
+  random_seed: 42
+  stratify_by: neighbourhood_group
+  max_tfidf_features: 5

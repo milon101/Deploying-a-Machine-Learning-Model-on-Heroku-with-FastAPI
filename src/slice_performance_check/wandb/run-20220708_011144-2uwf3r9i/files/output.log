@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 58, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 18, in go
+    test_local_path = run.use_artifact(args.test_artifact).file()
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2369, in use_artifact
+    raise ValueError(
+ValueError: You must pass an artifact name (e.g. "pedestrian-dataset:v1"), an instance of `wandb.Artifact`, or `wandb.Api().artifact()` to `use_artifact`

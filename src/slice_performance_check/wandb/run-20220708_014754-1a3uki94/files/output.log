@@ -1,0 +1,12 @@
+
+2022-07-08 01:47:57,982 Downloading artifacts
+2022-07-08 01:48:01,843 Loading model and performing inference on test set
+2022-07-08 01:48:01,909 Scoring
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 114, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 48, in go
+    precision, recall, fbeta = compute_model_metrics(y_test, y_pred)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 81, in compute_model_metrics
+    fbeta = fbeta_score(y, preds, beta=1, zero_division=1)
+NameError: name 'fbeta_score' is not defined

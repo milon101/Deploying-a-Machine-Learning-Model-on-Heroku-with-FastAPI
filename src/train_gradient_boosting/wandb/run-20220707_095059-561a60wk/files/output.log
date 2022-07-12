@@ -1,0 +1,28 @@
+[[' Private' ' HS-grad' ' Never-married' ... ' White' ' Male'
+  ' United-States']
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']
+ [' Private' ' Some-college' ' Separated' ... ' White' ' Female'
+  ' United-States']
+ ...
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']
+ [' Self-emp-not-inc' ' Some-college' ' Married-civ-spouse' ... ' Black'
+  ' Male' ' United-States']
+ [' Private' ' HS-grad' ' Married-civ-spouse' ... ' White' ' Male'
+  ' United-States']]
+       age  fnlwgt  education-num  capital-gain  capital-loss  hours-per-week
+224     23  210526              9             0             0              40
+9902    38  210866              9             0             0              44
+3846    38  177121             10             0             0              58
+6049    29  251854              9             0             0              40
+12789   48  379883             14             0             0              40
+2022-07-07 09:51:03,987 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/run.py", line 262, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/run.py", line 73, in go
+    X_train, y_train, encoder, lb = process_data(
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/train_gradient_boosting/data.py", line 71, in process_data
+    print(X_categorical.head())
+AttributeError: 'numpy.ndarray' object has no attribute 'head'

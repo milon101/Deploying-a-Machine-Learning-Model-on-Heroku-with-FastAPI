@@ -1,0 +1,7 @@
+name: model_check
+conda_env: conda.yml
+
+entry_points:
+  main:
+
+    command: "pytest . -vv"

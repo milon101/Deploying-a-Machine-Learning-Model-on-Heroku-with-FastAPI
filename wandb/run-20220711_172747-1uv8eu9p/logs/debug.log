@@ -1,0 +1,142 @@
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_setup.py:_flush():76] Loading settings from /home/imdadul/.config/wandb/settings
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_setup.py:_flush():76] Loading settings from /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/wandb/settings
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/api_creation/test_run.py', 'program': '/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/api_creation/test_run.py'}
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:_log_setup():428] Logging user logs to /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/wandb/run-20220711_172747-1uv8eu9p/logs/debug.log
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:_log_setup():429] Logging internal logs to /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/wandb/run-20220711_172747-1uv8eu9p/logs/debug-internal.log
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():462] calling init triggers
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():515] starting backend
+2022-07-11 17:27:47,275 INFO    ThreadPoolExecutor-2_0:275119 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-11 17:27:47,280 INFO    ThreadPoolExecutor-2_0:275119 [backend.py:ensure_launched():217] starting backend process...
+2022-07-11 17:27:47,282 INFO    ThreadPoolExecutor-2_0:275119 [backend.py:ensure_launched():222] started backend process with pid: 275142
+2022-07-11 17:27:47,283 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():525] backend started and connected
+2022-07-11 17:27:47,284 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():596] updated telemetry
+2022-07-11 17:27:47,285 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-07-11 17:27:48,217 INFO    ThreadPoolExecutor-2_0:275119 [wandb_run.py:_on_init():1924] communicating current version
+2022-07-11 17:27:48,326 INFO    ThreadPoolExecutor-2_0:275119 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.12.21 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-07-11 17:27:48,326 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():662] starting run threads in backend
+2022-07-11 17:27:50,600 INFO    ThreadPoolExecutor-2_0:275119 [wandb_run.py:_console_start():1898] atexit reg
+2022-07-11 17:27:50,600 INFO    ThreadPoolExecutor-2_0:275119 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-07-11 17:27:50,600 INFO    ThreadPoolExecutor-2_0:275119 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-07-11 17:27:50,601 ERROR   ThreadPoolExecutor-2_0:275119 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-07-11 17:27:50,601 INFO    ThreadPoolExecutor-2_0:275119 [wandb_init.py:init():688] run started, returning control to user process
+2022-07-11 17:27:50,604 INFO    MainThread:275119 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2022-07-11 17:27:50,604 INFO    MainThread:275119 [wandb_run.py:_restore():1839] restore
+2022-07-11 17:27:50,888 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  total_bytes: 683
+}
+
+2022-07-11 17:27:51,227 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 683
+  total_bytes: 683
+}
+
+2022-07-11 17:27:51,331 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 683
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,434 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 683
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,537 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10562
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,641 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,744 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,847 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:51,951 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:52,054 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:52,588 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+
+2022-07-11 17:27:53,132 INFO    MainThread:275119 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 14045
+  total_bytes: 14045
+}
+local_info {
+}
+
+2022-07-11 17:27:54,326 INFO    MainThread:275119 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-07-11 17:27:54,326 INFO    MainThread:275119 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-07-11 17:27:54,329 INFO    MainThread:275119 [wandb_run.py:_footer_sync_info():3060] logging synced files

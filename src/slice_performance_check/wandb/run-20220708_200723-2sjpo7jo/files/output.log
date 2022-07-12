@@ -1,0 +1,9 @@
+
+2022-07-08 20:07:27,006 Downloading artifacts
+2022-07-08 20:07:32,260 Loading model and performing inference on test set
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 150, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 71, in go
+    ' ' * (space_length - len(precision)),
+TypeError: object of type 'numpy.float64' has no len()

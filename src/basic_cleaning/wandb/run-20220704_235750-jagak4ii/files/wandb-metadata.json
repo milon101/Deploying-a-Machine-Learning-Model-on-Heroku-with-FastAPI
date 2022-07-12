@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.13.0-51-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-04T22:57:51.682688",
+    "startedAt": "2022-07-04T22:57:50.716533",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "census.csv:latest",
+        "--output_artifact",
+        "clean_census.csv",
+        "--output_type",
+        "clean_census",
+        "--output_description",
+        "Data with spaces removed from column names"
+    ],
+    "state": "running",
+    "program": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/basic_cleaning/run.py",
+    "codePath": "run.py",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/bin/python"
+}

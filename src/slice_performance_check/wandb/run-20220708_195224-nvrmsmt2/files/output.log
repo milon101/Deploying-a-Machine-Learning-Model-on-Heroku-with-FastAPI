@@ -1,0 +1,21 @@
+
+2022-07-08 19:52:28,599 Downloading artifacts
+2022-07-08 19:52:34,359 Loading model and performing inference on test set
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 142, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 63, in go
+    precision, recall, fbeta = compute_model_metrics(y_test, y_pred_slice)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/slice_performance_check/run.py", line 109, in compute_model_metrics
+    fbeta = fbeta_score(y, preds, beta=1, zero_division=1)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 1270, in fbeta_score
+    _, _, f, _ = precision_recall_fscore_support(
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 1556, in precision_recall_fscore_support
+    labels = _check_set_wise_labels(y_true, y_pred, average, labels, pos_label)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 1357, in _check_set_wise_labels
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 84, in _check_targets
+    check_consistent_length(y_true, y_pred)
+  File "/home/imdadul/miniconda3/envs/mlflow-078471fef0a832ef964cce936e2dfe85f5b9fa0d/lib/python3.10/site-packages/sklearn/utils/validation.py", line 387, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [6033, 4452]

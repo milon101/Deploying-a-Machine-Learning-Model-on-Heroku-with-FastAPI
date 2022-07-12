@@ -1,0 +1,33 @@
+2022-07-05 11:18:15,457 Downloading census.csv:latest from Weights & Biases
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project milon101/usa_census does not contain artifact: "census.csv:latest"
+Traceback (most recent call last):
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 791, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 3518, in __init__
+    self._load()
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 4089, in _load
+    raise ValueError(
+ValueError: Project milon101/usa_census does not contain artifact: "census.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/basic_cleaning/run.py", line 104, in <module>
+    go(args)
+  File "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/basic_cleaning/run.py", line 52, in go
+    artifact_loacl_path = run.use_artifact(args.input_artifact).file()
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2308, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 791, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 3518, in __init__
+    self._load()
+  File "/home/imdadul/miniconda3/envs/mlflow-5a20589f741cf6c5d33433822ad62f25ebdf61f0/lib/python3.10/site-packages/wandb/apis/public.py", line 4089, in _load
+    raise ValueError(
+wandb.errors.CommError: Project milon101/usa_census does not contain artifact: "census.csv:latest"
