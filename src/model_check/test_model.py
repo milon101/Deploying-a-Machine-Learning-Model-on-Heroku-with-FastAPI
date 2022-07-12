@@ -12,8 +12,8 @@ logger.info("inside")
 @pytest.fixture(scope='session')
 def model():
 
-    gbc_model_local_path = os.path.join("src/model_check/train_gradient_boosting/models", "gradient_boosting_dir")
-    lb_model_local_path =  os.path.join("src/model_check/train_gradient_boosting/models", "label_binarizer_dir")
+    gbc_model_local_path = os.path.join("src/train_gradient_boosting/models", "gradient_boosting_dir")
+    lb_model_local_path =  os.path.join("src/train_gradient_boosting/models", "label_binarizer_dir")
 
     return gbc_model_local_path, lb_model_local_path
 
