@@ -1,0 +1,2 @@
+/home/imdadul/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/IPython/core/interactiveshell.py:3398: FutureWarning: In a future version of pandas all arguments of read_csv except for the argument 'filepath_or_buffer' will be keyword-only.
+  exec(code_obj, self.user_global_ns, self.user_ns)

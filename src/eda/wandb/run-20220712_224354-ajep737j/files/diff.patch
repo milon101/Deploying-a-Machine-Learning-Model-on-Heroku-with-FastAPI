@@ -1,0 +1,257 @@
+diff --git a/src/eda/EDA.ipynb b/src/eda/EDA.ipynb
+index 9598e99..cdfdd1d 100644
+--- a/src/eda/EDA.ipynb
++++ b/src/eda/EDA.ipynb
+@@ -2,134 +2,10 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": 8,
++   "execution_count": null,
+    "id": "7cc0ab0d",
+    "metadata": {},
+-   "outputs": [
+-    {
+-     "data": {
+-      "text/html": [
+-       "Finishing last run (ID:2f5944xw) before initializing another..."
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Waiting for W&B process to finish... <strong style=\"color:green\">(success).</strong>"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "application/vnd.jupyter.widget-view+json": {
+-       "model_id": "6858be91b47b4234984184cddd96d98b",
+-       "version_major": 2,
+-       "version_minor": 0
+-      },
+-      "text/plain": [
+-       "VBox(children=(Label(value='0.001 MB of 0.001 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=1.0, max…"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Synced <strong style=\"color:#cdcd00\">earnest-wind-40</strong>: <a href=\"https://wandb.ai/milon101/usa_census/runs/2f5944xw\" target=\"_blank\">https://wandb.ai/milon101/usa_census/runs/2f5944xw</a><br/>Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Find logs at: <code>./wandb/run-20220708_093315-2f5944xw/logs</code>"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Successfully finished last run (ID:2f5944xw). Initializing new run:<br/>"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "wandb version 0.12.21 is available!  To upgrade, please run:\n",
+-       " $ pip install wandb --upgrade"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Tracking run with wandb version 0.12.19"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Run data is saved locally in <code>/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id</code>"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    },
+-    {
+-     "data": {
+-      "text/html": [
+-       "Syncing run <strong><a href=\"https://wandb.ai/milon101/usa_census/runs/s0sem3id\" target=\"_blank\">avid-wood-60</a></strong> to <a href=\"https://wandb.ai/milon101/usa_census\" target=\"_blank\">Weights & Biases</a> (<a href=\"https://wandb.me/run\" target=\"_blank\">docs</a>)<br/>"
+-      ],
+-      "text/plain": [
+-       "<IPython.core.display.HTML object>"
+-      ]
+-     },
+-     "metadata": {},
+-     "output_type": "display_data"
+-    }
+-   ],
++   "outputs": [],
+    "source": [
+     "# import libraries\n",
+     "import wandb\n",
+@@ -150,6 +26,16 @@
+     "df = pd.read_csv(local_path, skipinitialspace=True)"
+    ]
+   },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "id": "cb2a1f68",
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "run.finish()"
++   ]
++  },
+   {
+    "cell_type": "code",
+    "execution_count": 5,
+diff --git a/src/eda/wandb/debug-internal.log b/src/eda/wandb/debug-internal.log
+index 998b9dd..bf6df51 120000
+--- a/src/eda/wandb/debug-internal.log
++++ b/src/eda/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20220711_133348-s0sem3id/logs/debug-internal.log
+\ No newline at end of file
++run-20220712_224354-ajep737j/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/eda/wandb/debug.log b/src/eda/wandb/debug.log
+index 72cabae..bb8d1b4 120000
+--- a/src/eda/wandb/debug.log
++++ b/src/eda/wandb/debug.log
+@@ -1 +1 @@
+-run-20220711_133348-s0sem3id/logs/debug.log
+\ No newline at end of file
++run-20220712_224354-ajep737j/logs/debug.log
+\ No newline at end of file
+diff --git a/src/eda/wandb/latest-run b/src/eda/wandb/latest-run
+index 904ec90..58dc55e 120000
+--- a/src/eda/wandb/latest-run
++++ b/src/eda/wandb/latest-run
+@@ -1 +1 @@
+-run-20220711_133348-s0sem3id
+\ No newline at end of file
++run-20220712_224354-ajep737j
+\ No newline at end of file
+diff --git a/src/eda/wandb/run-20220711_133348-s0sem3id/logs/debug-internal.log b/src/eda/wandb/run-20220711_133348-s0sem3id/logs/debug-internal.log
+index 87aa82c..56af613 100644
+--- a/src/eda/wandb/run-20220711_133348-s0sem3id/logs/debug-internal.log
++++ b/src/eda/wandb/run-20220711_133348-s0sem3id/logs/debug-internal.log
+@@ -19555,3 +19555,64 @@
+ 2022-07-12 22:38:17,406 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
+ 2022-07-12 22:38:19,486 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
+ 2022-07-12 22:38:19,487 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:38:34,847 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:38:34,848 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:38:47,766 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:38:50,207 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:38:50,208 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:39:05,465 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:39:05,465 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:39:18,098 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:39:20,723 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:39:20,723 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:39:36,012 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:39:36,013 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:39:48,416 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:39:51,336 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:39:51,336 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:40:06,596 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:40:06,596 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:40:18,709 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:40:21,855 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:40:21,856 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:40:37,102 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:40:37,102 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:40:49,000 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:40:52,368 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:40:52,368 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:41:07,600 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:41:07,601 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:41:19,279 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:41:22,884 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:41:22,885 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:41:38,142 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:41:38,142 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:41:49,581 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:41:53,503 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:41:53,504 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:42:08,759 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:42:08,760 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:42:19,860 DEBUG   SenderThread:241827 [sender.py:send():235] send: stats
++2022-07-12 22:42:24,009 DEBUG   HandlerThread:241827 [handler.py:handle_request():141] handle_request: stop_status
++2022-07-12 22:42:24,009 DEBUG   SenderThread:241827 [sender.py:send_request():249] send_request: stop_status
++2022-07-12 22:42:34,031 WARNING MainThread:241827 [internal.py:is_dead():387] Internal process exiting, parent pid 41723 disappeared
++2022-07-12 22:42:34,031 ERROR   MainThread:241827 [internal.py:wandb_internal():149] Internal process shutdown.
++2022-07-12 22:42:34,276 INFO    SenderThread:241827 [sender.py:finish():1111] shutting down sender
++2022-07-12 22:42:34,276 INFO    SenderThread:241827 [dir_watcher.py:finish():336] shutting down directory watcher
++2022-07-12 22:42:34,527 INFO    SenderThread:241827 [dir_watcher.py:finish():366] scan: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files
++2022-07-12 22:42:34,528 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/wandb-summary.json wandb-summary.json
++2022-07-12 22:42:34,528 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/requirements.txt requirements.txt
++2022-07-12 22:42:34,528 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/output.log output.log
++2022-07-12 22:42:34,531 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/conda-environment.yaml conda-environment.yaml
++2022-07-12 22:42:34,533 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/config.yaml config.yaml
++2022-07-12 22:42:34,534 INFO    SenderThread:241827 [dir_watcher.py:finish():380] scan save: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/wandb-metadata.json wandb-metadata.json
++2022-07-12 22:42:34,539 INFO    SenderThread:241827 [file_pusher.py:finish():145] shutting down file pusher
++2022-07-12 22:42:34,540 INFO    SenderThread:241827 [file_pusher.py:join():150] waiting for file pusher
++2022-07-12 22:42:34,863 INFO    WriterThread:241827 [datastore.py:close():279] close: /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/run-s0sem3id.wandb
++2022-07-12 22:42:35,024 INFO    HandlerThread:241827 [handler.py:finish():806] shutting down handler
++2022-07-12 22:42:35,340 INFO    Thread-13 :241827 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/requirements.txt
++2022-07-12 22:42:35,344 INFO    Thread-15 :241827 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/conda-environment.yaml
++2022-07-12 22:42:35,344 INFO    Thread-14 :241827 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/output.log
++2022-07-12 22:42:35,344 INFO    Thread-16 :241827 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/config.yaml
++2022-07-12 22:42:35,352 INFO    Thread-12 :241827 [upload_job.py:push():132] Uploaded file /home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI/src/eda/wandb/run-20220711_133348-s0sem3id/files/wandb-summary.json
++2022-07-12 22:42:36,663 INFO    MainThread:241827 [internal.py:handle_exit():80] Internal process exited
+diff --git a/src/eda/wandb/run-20220711_133348-s0sem3id/run-s0sem3id.wandb b/src/eda/wandb/run-20220711_133348-s0sem3id/run-s0sem3id.wandb
+index ff5497b..96c4925 100644
+Binary files a/src/eda/wandb/run-20220711_133348-s0sem3id/run-s0sem3id.wandb and b/src/eda/wandb/run-20220711_133348-s0sem3id/run-s0sem3id.wandb differ

@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-12T21:43:55.884456",
+    "startedAt": "2022-07-12T21:43:54.503729",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/milon101/Deploying-a-Machine-Learning-Model-on-Heroku-with-FastAPI.git",
+        "commit": "afd52edd6021f57d4d2d78bf1c30bef0e17ba2be"
+    },
+    "email": "milon.imdad@gmail.com",
+    "root": "/home/imdadul/Project Folder/Deploying a Machine Learning Model on Heroku with FastAPI",
+    "host": "imdadul-ROG-Strix-G513QM-G513QM",
+    "username": "imdadul",
+    "executable": "/home/imdadul/miniconda3/envs/nyc_airbnb_dev/bin/python"
+}
