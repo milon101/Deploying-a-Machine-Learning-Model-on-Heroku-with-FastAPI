@@ -12,7 +12,7 @@ from omegaconf import DictConfig
 _steps = [
     "upload",
     "basic_cleaning",
-    "data_check",
+    # "data_check",
     "data_split",
     "train_gradient_boosting",
     "slice_performance_check",
