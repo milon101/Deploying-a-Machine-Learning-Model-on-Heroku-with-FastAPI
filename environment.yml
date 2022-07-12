@@ -17,6 +17,7 @@ dependencies:
   - gunicorn=20.1.0
   - scikit-learn=1.1.1
   - pandas=1.4.3
+  - pytest=7.1.2
   - pip:
       - wandb==0.12.19
       - hydra-core==1.2.0
