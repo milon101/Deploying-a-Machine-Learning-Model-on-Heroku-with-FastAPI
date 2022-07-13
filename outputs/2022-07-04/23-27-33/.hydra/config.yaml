@@ -1,6 +1,0 @@
-main:
-  project_name: usa_census
-  experiment_name: development
-  steps: basic_cleaning
-etl:
-  sample: census.csv
