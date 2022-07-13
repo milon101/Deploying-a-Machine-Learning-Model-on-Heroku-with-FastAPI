@@ -8,7 +8,6 @@ import numpy as np
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
-logger.info("inside")
 @pytest.fixture(scope='session')
 def model():
 
@@ -29,9 +28,18 @@ def test_export_model(model):
         sk_pipe = mlflow.sklearn.load_model(gbc_model_local_path)
         lb = mlflow.sklearn.load_model(lb_model_local_path)
     except mlflow.exceptions.MlflowException as err:
-        logging.info("Could not find an sk_pipe configuration file at model path")
+        logger.info("Could not find an sk_pipe configuration file at model path")
         raise err
 
+def test_label_binarizer(model):
+    """
+    Test label binarizer
+    """
+    _, lb_model_local_path = model
+    lb = mlflow.sklearn.load_model(lb_model_local_path)
+    values = ["<=50K", ">50K"]
+    v = lb.transform(values)
+    assert (v == [[0], [1]]).all()
 
 def test_inference_less(model):
     """
@@ -39,7 +47,7 @@ def test_inference_less(model):
     """
 
     gbc_model_local_path, lb_model_local_path = model
-    logger.info("Loading model and performing inference on test set")
+    logger.info("Loading model and performing inference")
     logger.info(gbc_model_local_path)
     sk_pipe = mlflow.sklearn.load_model(gbc_model_local_path)
     lb = mlflow.sklearn.load_model(lb_model_local_path)
@@ -89,7 +97,7 @@ def test_inference_greater(model):
     """
 
     gbc_model_local_path, lb_model_local_path = model
-    logger.info("Loading model and performing inference on test set")
+    logger.info("Loading model and performing inference")
     logger.info(gbc_model_local_path)
     sk_pipe = mlflow.sklearn.load_model(gbc_model_local_path)
     lb = mlflow.sklearn.load_model(lb_model_local_path)
