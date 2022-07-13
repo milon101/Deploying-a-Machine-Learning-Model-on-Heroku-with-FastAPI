@@ -19,7 +19,7 @@ def test_get_path(client):
     assert r.json() == {"message": "Deploying a Machine Learning Model on Heroku with FastAPI"}
 
 
-def test_inference_less():
+def test_inference_less(client):
     r = client.post("/", json={
         "age": 39,
         "workclass": "State-gov",
@@ -40,7 +40,7 @@ def test_inference_less():
     print(r.json())
     assert r.json() == {"prediction": "<=50K"}
 
-def test_inference_greater():
+def test_inference_greater(client):
     r = client.post("/", json={
         "age": 31,
         "workclass": "Private",

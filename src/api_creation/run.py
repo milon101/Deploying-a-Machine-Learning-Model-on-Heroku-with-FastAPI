@@ -80,7 +80,7 @@ def go(args):
 
 @app.get("/")
 async def get_items():
-    return {"message": "Greetings!"}
+    return {"message": "Deploying a Machine Learning Model on Heroku with FastAPI"}
 
 @app.post("/")
 async def inference(user_data: Value):
