@@ -16,7 +16,7 @@ _steps = [
     "data_split",
     "train_gradient_boosting",
     "slice_performance_check",
-    "model_check",
+    # "model_check",
     # "api_creation"
 ]
 
